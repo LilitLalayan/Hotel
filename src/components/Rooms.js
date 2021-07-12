@@ -26,7 +26,7 @@ function Rooms() {
           position: "absolute",
           width: 72,
           height: 68,
-          left: 1185,
+          left: "87%",
           top: "3180px",
           background: "#6F4F28",
           border: "0.5px solid #6F4F28",
