@@ -49,6 +49,16 @@
   left: 88%;
   justify-content: space-between;
 }
+.mediaPool {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 158px;
+  width: 38px;
+  top: 5010.89px;
+  left: 88%;
+  justify-content: space-between;
+}
 
 #Booking {
   height: 138px;
@@ -414,4 +424,82 @@
   top: 4432.07px;
   border: 1.5px solid #6f4f28;
   background-color: #6f4f28;
+}
+.pool {
+  position: absolute;
+  width: 600px;
+  height: 563.92px;
+  left: 161.56px;
+  top: 4580px;
+  background: rgba(255, 251, 248, 0.77);
+  backdrop-filter: blur(34px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+.pool-title {
+  height: 154px;
+  font-family: Ogg;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 87px;
+  text-transform: uppercase;
+  color: #201b13;
+  text-align: center;
+}
+.pool-line {
+  width: 80px;
+  height: 1.5px;
+  background: #6f4f28;
+}
+.pool-text {
+  width: 560px;
+  height: 99px;
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  color: #201b13;
+}
+.pool-button {
+  margin-top: 50px;
+  width: 286px;
+  height: 50px;
+  mix-blend-mode: normal;
+  border: 0.5px solid #6f4f28;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #6f4f28;
+  letter-spacing: 5%;
+}
+.poolImg1 {
+  position: absolute;
+  width: 640.28px;
+  height: 490px;
+  left: 700px;
+  top: 4800px;
+  background: url("https://s3-alpha-sig.figma.com/img/375e/d5cd/262bcdbdab107ce114e4432e24f7323a?Expires=1627257600&Signature=AutEHPdBvvBcNu5EglWNzeUwCxHVdGYNjrMVG6KNrPtYy38rw-XMcvoY~9A0l8Tqd3lF70rpxf6cKJvndiuESvOIvH0MlClp8JthLCsKjeB83XeSCDBT3QxlsbThspkgc2JbajWjVUyrmcspgLRqEbL5Ag4EGDmFxqyGbB8PisDa2XODlJHhgXU~atXXG~JWHZSMRWhXH2wBDwXGeOom4BORZZFmOV7D3qJghNxNvrQohc1xhmJDUvLEjUhb3o3CRJl9TXp3H41wRe9kxD2TvkcDBAKXdyPN9buWqlZRW883pU7M6QkIOHsx6iNSF4OjSPU5qHR68SC5-YqRzkIdcA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.poolImg2 {
+  position: absolute;
+  width: 424px;
+  height: 430px;
+  left: 500px;
+  top: 5140px;
+  background: url("https://s3-alpha-sig.figma.com/img/e5fa/f376/f0e9afdace3df76133eb3d458305d7d1?Expires=1627257600&Signature=ccVDA6xcDefCDjwxnYmLdV6G-~5fWhPiAubwbHrop6t8brrQ3z0P0q3iKeokLeGKG8VxCs6Cj2vpcQ3go9GSfdB26wbVm-Dgmm8AP8F0f0vgZQAjJmNPhZ2IK5Agb1h~q2-1oqc-mKv3M9Lx-yCmlG-LeFPymBeGn3T2~L3PUQO-sW97raMTJu61Pkjpr7QndA5itkdzqQWY1JXiEezcqkz56SeB7FC2hHkeP~Sq0M04lQJOqBbEYgo0xYTD3aJ~7xGI1Z1-1Upx0rjji8URMQjdpQYg92c1WuGxv7Accp6eO03JLkwQdAvw3R1X~DNK4VYZ6PzQ2cuKNFScu5q7Tg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  border-radius: 0px 0px 350px 350px;
+  background-position: center;
+  background-size: cover;
 }

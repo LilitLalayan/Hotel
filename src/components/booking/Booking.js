@@ -24,7 +24,23 @@ function Booking() {
       id="Booking"
       onSubmit={(e) => {
         e.preventDefault();
-        console.log(JSON.stringify(data));
+        if (
+          startDate === null ||
+          endDate === null ||
+          adultCount === 0 ||
+          childCount === 0 ||
+          promCode === ""
+        ) {
+          alert("PLEASE FILL IN THE FORM");
+        } else {
+          setStartDate(null);
+          setEndDate(null);
+          setAdultCount(0);
+          setChildCount(0);
+          setPromCode("");
+          console.log(JSON.stringify(data));
+          alert("YOU BOOKED A STAY!");
+        }
       }}
     >
       <div className="arrival">

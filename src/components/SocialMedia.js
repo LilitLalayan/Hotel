@@ -12,6 +12,8 @@ function SocialMedia({ media }) {
     className = "mediaRoom";
   } else if (media === "bars") {
     className = "mediaBar";
+  } else if (media === "pool") {
+    className = "mediaPool";
   }
   return (
     <div className={className}>
