@@ -23,7 +23,7 @@ function Bars() {
       <div className="barLine-title" />
       <div
         style={{
-          width: "95.7vw",
+          width: "90.3vw",
           overflow: "hidden",
           height: 595,
           position: "absolute",

@@ -80,7 +80,7 @@
   width: 9.77vw;
   height: 4.21vh;
   left: 45.1vw;
-  top: 46.36vh;
+  top: 37.36vh;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -96,7 +96,7 @@
   position: absolute;
   width: 38.88vw;
   height: 29.9vh;
-  top: 55.3vh;
+  top: 43.3vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
@@ -199,12 +199,12 @@
   text-align: center;
 }
 .line {
-  width: 4.64vw;
+  width: 4.1vw;
   height: 0.14vh;
   background-color: #6f4f28;
 }
 .about-text {
-  width: 32.7vw;
+  width: 32.6vw;
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
@@ -307,7 +307,7 @@
 }
 .barTitle {
   position: absolute;
-  width: 32vw;
+  width: 34vw;
   height: 9.3vh;
   left: 8.3vw;
   top: 428.7vh;
@@ -516,4 +516,138 @@
   border-radius: 0px 0px 350px 350px;
   background-position: center;
   background-size: cover;
+}
+.gallery {
+  position: absolute;
+  width: 100%;
+  height: 112.35vh;
+  top: 672.9vh;
+  overflow: hidden;
+}
+.gallery-slide {
+  height: 86.4vh;
+  width: 121.8vw;
+  margin-top: 5.4vh;
+}
+.gallery-title {
+  width: 24.4vw;
+  height: 9.3vh;
+  margin-left: 8.3vw;
+  font-family: Ogg;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.9vw;
+  line-height: 9.3vh;
+  text-transform: uppercase;
+  color: #201b13;
+}
+.gallery-line {
+  background-color: #6f4f28;
+  margin-left: 8.3vw;
+  width: 4.1vw;
+  height: 1.5px;
+  margin-top: 2.9vh;
+}
+.pages {
+  position: absolute;
+  top: 785.7vh;
+  display: flex;
+  justify-content: space-between;
+  width: 9.3vw;
+  height: 3.5vh;
+  margin-left: 45.8vw;
+}
+.gal-arrow-left {
+  width: 1.8vw;
+  height: 0px;
+  color: #6f4f28;
+  cursor: pointer;
+}
+.gal-arrow-right {
+  width: 1.8vw;
+  height: 0px;
+  color: #6f4f28;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+.current-page {
+  font-family: Ogg;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8vw;
+  line-height: 170%;
+  color: #6f4f28;
+}
+.gal-page-slash {
+  font-family: Ogg;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8vw;
+  line-height: 170%;
+  color: #6f4f28;
+}
+.last-page {
+  font-family: Ogg;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8vw;
+  line-height: 170%;
+  color: #6f4f28;
+  opacity: 0.2;
+}
+.gallery1 {
+  position: absolute;
+  width: 20.8vw;
+  height: 54.1vh;
+  top: 26.4vh;
+  left: -10.4vw;
+  background-image: url("https://s3-alpha-sig.figma.com/img/f70a/d9c8/5e4f1558a3881bae83977afe3c78ce5b?Expires=1627257600&Signature=PSK~vbNNVWKRI9xvswPHAQ2qCZ6a9cdU03edn41nKJuivPlLIG8WqMNuU9-6pRasQ7BTuOO55E0o8joYsXDttVbTvoqlQ9rUYsObw~7bLMtEmvLuJq2amFhc1rWGitA3~tp5ozmhzLWvTdMA4RjAkjmqFIOCO3OAFuHjzMFFZNXbiCceBj9PGMxnCGMgTzuDyypkJG8Yv7kj~9LjCuCYY4Wl2SQDKugLYhTKvyZjDkKKHJsN8TlnLWP8QZfjmzYMOTjs1ZgnPk53qrNnb7ZlNjn9QA-sd2Akzk1uxPd8Ql2QJQaWkjkhqwaBVVhrZXX4jBMeP20esMR2jBTKlxOaeA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery2 {
+  position: absolute;
+  width: 20.8vw;
+  height: 54.1vh;
+  top: 43vh;
+  left: 11.9vw;
+  background-image: url("https://s3-alpha-sig.figma.com/img/f148/1685/fbf4ea1e128612c49cf79ca7d5d52692?Expires=1627257600&Signature=eq8EJ69nCTdJzcTTpT~OiddEz6CEVxocNij--kQlP8li9VARot83YILeXotWIbL7eDeUdTCvp7tzf3gvL2IR4tAjbJSZQ5dT9ajIZMYCs5HRGZJFaXwsAQaz0A9xURbvzUd~Io5jKSOrnSRAH9UgfwJRmycERs219PctGSin1ht2s4DxcSUTV1RT8HKmFYBNnOTS~ooYClgIwAySFUceUAwht9n5QgveqLXq-z3WBXrz4rkh3ZbiQKIwgLTRXhEBplneajzvdoa-uBRDgiZjsZnvLmpIFRWFJ45-GzXQYH2AHoQdDqNQUhWfLIDOhJy~bmzJhZCxn0GQKR-dAL4DNg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery3 {
+  position: absolute;
+  width: 31.25vw;
+  height: 86.4vh;
+  top: 23vh;
+  left: 34.2vw;
+  background-image: url("https://s3-alpha-sig.figma.com/img/c750/d943/53978cae45b061585b2e53e00cc4255a?Expires=1627257600&Signature=C3A1FtnQN2UXBIW6UCRjeh-cCY3F5UuJWeANVCr1NHJlu8efQy1M6t6qigIyOIVV6WP-y~Utfa98o6r3IamSKYxJh84NXve2EKWtES2uWXgvweqwqvlTN7DEAEy6pLCGd-Ay3Zh93fByGnh69HC7SYf7TnLWoA1~75lvoJ5i2zLeOvJ0~yblOpX3yR6eSTLw4LZdvC6CvkE6CcJVBRaruuVmjzUYqFMalCPiqr965kgGZNy-pZP-HtUuB-0aQV2fAGGHX~N4FpYfqSIlhqK~MEY~ZUsh~vi2FVLSXdt335tBLsSmx6qwqkpNrL7LLibBm0NhmybSEaLpGD3MLjBs4w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery4 {
+  position: absolute;
+  width: 22vw;
+  height: 46.3vh;
+  top: 33.8vh;
+  left: 66.9vw;
+  border-radius: 0px 0px 350px 350px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/06a1/12cc/c1a0d5034e44af33262ca3d6bdc57386?Expires=1627257600&Signature=HE9KS8za-GVDOFqhy~SM60AxkpGMePyvrvbGDcmsA-7BNTRFWJDPEun8D36sdSbmksjDgIfuMz0CO5T6rQdeIkIafPwsjs8fysH64W~4kJZgR4E7lF9hM0TRz0v0b4hmMk8QJubhe~f7ZPrMCa2IwscuiFXdCq6vrTrY9YdyPjYjEwOSYK~01HjstI4o7nAhXWDJurfCQ9pDrvjxIiY4VLMc87A9Zghb6SkftL-6D6Zz8qbfCoyMiAAQsgL5cMCkHrlJS1uZL-5prvvqy7BlHDX5SI3e4nBnhLIngJYZS3HQXgRDkMvawHR7hQFQSQSyjrn7dNVP2v7c2GxgSIUSgQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery5 {
+  position: absolute;
+  width: 20.8vw;
+  height: 66.5vh;
+  top: 43vh;
+  left: 90.5vw;
+  background-image: url("https://s3-alpha-sig.figma.com/img/9e47/6792/2764841f56435980785b22224f0414be?Expires=1627257600&Signature=edl7bkpsR08tEPq2Leoa4WKMs~NYtHEDq6A8O6-7HVtBhwHkfQRG-7DFpijT-ulrZBtLwQF8P2nD5vF3jZT7qe9slRiViwauNdj5aIQMsepaO-WBP62uKV-y96y0Co1rxO2mTdnGCd5Es6bYodUB18F7YmcTR-2~1RiFokcvICYI-CWqFvB~EpNK0UZhRurr7QSABssWJZYxSmEDCJWddFcwlx8QVt6qMQ2d-C469NWXCQ28TJsl2PJqwQz0sN~jrEgpxTazreNUqNL9muNTpObqQa7pmM6eD9twQJA8sYZ7Xe1GA-8ECwZ9mJfSX4B-6XBCkV4yntnUoTq3W8M4dA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
