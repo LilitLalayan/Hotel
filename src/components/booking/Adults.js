@@ -14,9 +14,9 @@ function Adults({ adultCount, setAdultCount }) {
       <h6 className="h6-text">ADULTS</h6>
       <div
         style={{
-          width: 120,
-          height: 50,
-          marginTop: 14,
+          width: "6.2vw",
+          height: "5.4vh",
+          marginTop: "2.1vh",
           boxSizing: "border-box",
           border: "0.5px solid #6F4F28",
           display: "flex",
@@ -28,6 +28,7 @@ function Adults({ adultCount, setAdultCount }) {
           style={{
             color: "#201B13",
             cursor: "pointer",
+            fontSize: "0.83vw",
           }}
           onClick={decrement}
         >
@@ -35,7 +36,7 @@ function Adults({ adultCount, setAdultCount }) {
         </span>
         <span
           style={{
-            fontSize: "16px",
+            fontSize: "0.83vw",
             fontFamily: "Ogg",
             color: "#201B13",
           }}
@@ -44,7 +45,7 @@ function Adults({ adultCount, setAdultCount }) {
         </span>
         <span
           style={{
-            fontSize: "16px",
+            fontSize: "0.83vw",
             color: "#201B13",
             cursor: "pointer",
           }}

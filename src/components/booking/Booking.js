@@ -69,12 +69,13 @@ function Booking() {
           type="text"
           value={promCode}
           style={{
-            width: 200,
-            height: 50,
+            width: "10.44vw",
+            height: "5.4vh",
             border: "0.5px solid #6F4F28",
             boxSizing: "border-box",
-            marginTop: 14,
+            marginTop: "2.1vh",
             outline: "none",
+            color: "#201B13",
           }}
           onChange={(e) => setPromCode(e.target.value)}
         />

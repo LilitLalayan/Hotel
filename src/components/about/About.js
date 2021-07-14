@@ -9,7 +9,7 @@ function About() {
       <div className="about">
         <h1 className="about-title">about us</h1>
         <div className="line" />
-        <div style={{ width: 500, height: 400 }}>
+        <div style={{ width: "32.7vw", height: "67.9vh", marginTop: "4.29vh" }}>
           <p className="about-text">
             Being located quite close to the downtown Konyak hotel offers a cosy
             and peaceful corner for both business and leisure travellers. Just a
@@ -39,30 +39,40 @@ function About() {
       </div>
       <div className="about-img1" />
       <div className="about-img2" />
-      <button
+      <span
         style={{
           position: "absolute",
-          width: 72,
-          height: 68,
-          left: "87%",
-          top: "1457.52px",
+          width: "3.55vw",
+          height: "6.19vh",
+          left: "92.5vw",
+          top: "170.8vh",
           background: "#6F4F28",
           border: "0.5px solid #6F4F28",
           boxSizing: "border-box",
-          textAlign: "center",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          verticalAlign: "center",
           letterSpacing: "0.05em",
           textTransform: "uppercase",
           color: "#FFFFFF",
           fontFamily: "Inter",
-          fontSize: "16px",
+          fontSize: "0.73vw",
           lineHeight: "150%",
           cursor: "pointer",
         }}
       >
-        <a href="#Booking" style={{ textDecoration: "none", color: "#FFFFFF" }}>
+        <a
+          href="#Booking"
+          style={{
+            textDecoration: "none",
+            color: "#FFFFFF",
+            textAlign: "center",
+          }}
+        >
           book now
         </a>
-      </button>
+      </span>
     </div>
   );
 }

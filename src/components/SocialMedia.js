@@ -19,8 +19,8 @@ function SocialMedia({ media }) {
     <div className={className}>
       <div
         style={{
-          width: 38,
-          height: 38,
+          width: "1.97vw",
+          height: "4.09vh",
           backgroundColor: "#6F4F28",
           borderRadius: "50%",
           display: "flex",
@@ -28,6 +28,7 @@ function SocialMedia({ media }) {
           alignItems: "center",
           color: "#FAF6F2",
           cursor: "pointer",
+          fontSize: "1.3vw",
         }}
       >
         <a
@@ -40,8 +41,8 @@ function SocialMedia({ media }) {
       </div>
       <div
         style={{
-          width: 38,
-          height: 38,
+          width: "1.97vw",
+          height: "4.09vh",
           backgroundColor: "#6F4F28",
           borderRadius: "50%",
           display: "flex",
@@ -59,13 +60,13 @@ function SocialMedia({ media }) {
             color: "#FAF6F2",
           }}
         >
-          <InstagramIcon />
+          <InstagramIcon style={{ fontSize: "1.3vw" }} />
         </a>
       </div>
       <div
         style={{
-          width: 38,
-          height: 38,
+          width: "1.97vw",
+          height: "4.09vh",
           backgroundColor: "#6F4F28",
           borderRadius: "50%",
           display: "flex",
@@ -83,6 +84,7 @@ function SocialMedia({ media }) {
           <img
             alt="tripAdvider logo"
             src="http://localhost:3000/tripadvisor-24.png"
+            style={{ width: "1.3vw", height: "3vh" }}
           />
         </a>
       </div>

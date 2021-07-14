@@ -1,7 +1,10 @@
 .Burger {
-  width: 28px;
-  height: 12px;
-  margin-left: 14vh;
+  box-sizing: border-box;
+  width: 1.46vw;
+  height: 1.78vh;
+  position: absolute;
+  left: 90.1vw;
+  top: 9.84vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,70 +16,75 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  height: 158px;
-  width: 38px;
-  top: 609.89px;
-  left: 88%;
+  height: 17.04vh;
+  width: 1.97vw;
+  top: 81.9vh;
+  left: 93.2vw;
   justify-content: space-between;
 }
 .mediaAbout {
   position: absolute;
   display: flex;
   flex-direction: column;
-  height: 158px;
-  width: 38px;
-  top: 1199.89px;
-  left: 88%;
+  height: 17.04vh;
+  width: 1.97vw;
+  top: 145.7vh;
+  left: 93.2vw;
   justify-content: space-between;
 }
 .mediaRoom {
   position: absolute;
   display: flex;
   flex-direction: column;
-  height: 158px;
-  width: 38px;
-  top: 2900px;
-  left: 88%;
+  height: 17.04vh;
+  width: 1.97vw;
+  top: 385.7vh;
+  left: 93.2vw;
   justify-content: space-between;
+  z-index: 1;
 }
 .mediaBar {
   position: absolute;
   display: flex;
   flex-direction: column;
-  height: 158px;
-  width: 38px;
-  top: 4050.89px;
-  left: 88%;
+  height: 17.04vh;
+  width: 1.97vw;
+  top: 477.7vh;
+  left: 93.2vw;
   justify-content: space-between;
 }
 .mediaPool {
   position: absolute;
   display: flex;
   flex-direction: column;
-  height: 158px;
-  width: 38px;
-  top: 5010.89px;
-  left: 88%;
+  height: 17.04vh;
+  width: 1.97vw;
+  top: 595.7vh;
+  left: 93.2vw;
   justify-content: space-between;
 }
 
 #Booking {
-  height: 138px;
+  height: 14.9vh;
   width: 100%;
   background-color: #ffff;
   position: absolute;
-  top: 1038px;
+  top: 132.16vh;
   backdrop-filter: blur(34px);
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 .welcome {
+  position: absolute;
+  width: 9.77vw;
+  height: 4.21vh;
+  left: 45.1vw;
+  top: 46.36vh;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 1.35vw;
   line-height: 150%;
   text-align: center;
   letter-spacing: 0.05em;
@@ -85,88 +93,93 @@
 }
 
 .konyak {
-  width: 710px;
-  height: 276px;
-  top: 511.01px;
+  position: absolute;
+  width: 38.88vw;
+  height: 29.9vh;
+  top: 55.3vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 92px;
+  font-size: 4.8vw;
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
 }
 
-.text {
-  position: absolute;
-  width: 710px;
-  height: 390px;
-  top: 250px;
-}
-
 .arrival {
-  width: 250px;
-  height: 85.34px;
+  width: 18.83vw;
+  height: 12.98vh;
+  margin-left: 8.43vw;
+  margin-top: 2.38vh;
 }
 
 .departure {
-  width: 250px;
-  height: 85.34px;
+  width: 18.83vw;
+  height: 12.98vh;
+  margin-left: 1.49vw;
+  margin-top: 2.38vh;
 }
 
 .h6-text {
-  margin: 0px;
-  height: 21px;
+  margin: 0;
+  height: 3.1vh;
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.73vw;
   line-height: 150%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #6f4f28;
 }
 .adults {
-  width: 120px;
-  height: 85.34px;
+  width: 6.29vw;
+  height: 12.98vh;
+  margin-left: 1.49vw;
+  margin-top: 2.38vh;
 }
 
 .children {
-  width: 120px;
-  height: 85.34px;
+  width: 6.29vw;
+  height: 12.98vh;
+  margin-left: 1.49vw;
+  margin-top: 2.38vh;
 }
 
 .prmotional-code {
-  width: 200px;
-  height: 85.34px;
+  width: 10.47vw;
+  height: 12.98vh;
+  margin-left: 1.49vw;
+  margin-top: 2.38vh;
 }
 
 .btn {
-  width: 150px;
-  height: 50px;
+  width: 14.94vw;
+  height: 5.4vh;
   background: #6f4f28;
   mix-blend-mode: normal;
-  margin-top: 34.66px;
+  margin-top: 5.2vh;
   border: 0.5px solid #6f4f28;
   box-sizing: border-box;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: "0.83vw";
   line-height: 150%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+  margin-left: 1.49vw;
 }
 
 .about {
   position: absolute;
-  width: 600px;
-  height: 650px;
-  left: 162px;
-  top: 1380.5px;
+  width: 42.6vw;
+  height: 622.896px;
+  left: 8.46vw;
+  top: 164.71vh;
   background: rgba(255, 251, 248, 0.77);
   backdrop-filter: blur(34px);
   display: flex;
@@ -179,22 +192,23 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 40px;
-  line-height: 80px;
+  font-size: 2, 92vw;
+  line-height: 9.43vh;
   text-transform: uppercase;
   color: #201b13;
   text-align: center;
 }
 .line {
-  width: 80px;
-  height: 1.5px;
+  width: 4.64vw;
+  height: 0.14vh;
   background-color: #6f4f28;
 }
 .about-text {
+  width: 32.7vw;
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.14vw;
   line-height: 150%;
   text-align: center;
   color: #201b13;
@@ -203,10 +217,10 @@
 
 .about-img1 {
   position: absolute;
-  width: 400px;
-  height: 700px;
-  left: 730px;
-  top: 1318px;
+  width: 35.9vw;
+  height: 108.5vh;
+  left: 46.7vw;
+  top: 157.86vh;
   background: url("https://s3-alpha-sig.figma.com/img/939e/a2a1/81a40aa838acab99b8be160e900c44ee?Expires=1626652800&Signature=deDgbd4rFJ9V55iA3ApEPIdXkQr5E1iOo1kXiJXT5SeOy9c0fRPJCRF8aitKMaX-p~ETvMURCFJD7yH6N6Ikk8mqcxKFJjzSCtmB1lyCOFEnPhTecJOha~nQrDYCsXqYr8HlnZelPZ1vLuBnX10DdWjBGwsDD9~CWIRApV4-Y9E~tCj08eGGtT3ZdXe9ROlGCo5PajiDH0VsP555wZ45BbtTOrVkZYgA4M8YoIR1n2vfARX3cc8pyQ70xSbcvYCbslfF7BTEz~NAALqz3nV-dbC8tAzIwP3U1mvp3DDb3Um-~sLaKrtzbHsbGEGDXiSfafvfhFYdSy7SBKoGbSMXhg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
   background-repeat: no-repeat;
   background-size: cover;
@@ -214,10 +228,10 @@
 }
 .about-img2 {
   position: absolute;
-  width: 300px;
-  height: 300px;
-  left: 980px;
-  top: 1800px;
+  width: 20.58vw;
+  height: 42.2vh;
+  left: 71vw;
+  top: 229.66vh;
   background: url("https://s3-alpha-sig.figma.com/img/9e47/6792/2764841f56435980785b22224f0414be?Expires=1626652800&Signature=QKmLpTPuyVDPYAapOwL4t7g9qFupD22Sa1VT~wMTGzAdVfUa13XW39456jHTOUl3CFL9wkW4mJFnVrJkXTjjMfzZUMb0hOttbwOwmix~DIntuh5N4YXAP-IDeGgg8J9l55P76tFaR2eGgi99NHcjXXJMONKiFuJbq9MKfYG05Hi-CR5IXBWo7YIwGm6Cxd9r-9rvnO67YT9h7YCAhSXFquClDCojtQ8bqNKofXO51ei~PZmsVPRthcTpnFlnP8fSrT1~V0D6jyq30GVjQgL8m~Tfa7F1zwSW9WFJeMoADt0MoCPsHeTGAkNnSdG1vFAolUQHOMECp3iIY6HktvCW6w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
   border-radius: 0px 0px 350px 350px;
   background-size: cover;
@@ -226,10 +240,10 @@
 
 .rooms {
   position: absolute;
-  width: 600px;
-  height: 680px;
-  left: 162px;
-  top: 2250px;
+  width: 42.6vw;
+  height: 88.23vh;
+  left: 8.46vw;
+  top: 292.56vh;
   background: rgba(255, 251, 248, 0.77);
   backdrop-filter: blur(34px);
   display: flex;
@@ -239,12 +253,12 @@
 }
 
 .rooms-title {
-  height: 87px;
+  height: 9.04vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 56px;
-  line-height: 87px;
+  font-size: 2.8vw;
+  line-height: 9.04vh;
   text-transform: uppercase;
   color: #201b13;
 }
@@ -256,23 +270,23 @@
   line-height: 170%;
   text-align: center;
   color: #201b13;
-  width: 550px;
-  height: 111px;
+  width: 31.35vw;
+  height: 11.53vh;
 }
 .h3 {
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 1px;
+  font-size: 1.79vw;
+  line-height: 3.82vh;
   color: #201b13;
 }
 .rooms-img {
   position: absolute;
-  width: 790px;
-  height: 500px;
-  left: 550px;
-  top: 2570px;
+  width: 61.5vw;
+  height: 73.39vh;
+  left: 36.8vw;
+  top: 330.53vh;
   background: url("https://s3-alpha-sig.figma.com/img/3e3a/bc95/9cc3922f1d2a66df98775f35ad85ba83?Expires=1626652800&Signature=TGLGId7kQWNscv84gD4KwkTZf0UTNaGJf4BOqIMLahzwv3LB2UJJWh2sXvl9XIaDGlE7d62s6ztwkUlWLKzWRym5uiJxp3p5OAuRHrynXzlAeMv00hJtZpBI-macGyv2u8N~NEkfIlKDB~nw9l8rcWGShEpFbPOkMWBtz9pjonvH7uCN2pUOwTFNCKui9J8szTGXz4lwuBjo6Tx-3oxky-ppqwOpVobITDmM9vOxnAyrj7LYo~jDN6ou~hi6i~1GnWZuKgN2eDVxO85OWkjzoHghFfADJuxs9BNI0~RFP5UZk5UP-vzq-QPExZlgWMcbxdE40d9ZO~S1C-JaTin7ow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
   background-size: cover;
   background-position: center;
@@ -280,50 +294,50 @@
 }
 .barWelcome {
   position: absolute;
-  width: 292px;
-  height: 87px;
-  left: 161px;
-  top: 3373.32px;
+  width: 15.2vw;
+  height: 9.3vh;
+  left: 8.3vw;
+  top: 419.3vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 56px;
-  line-height: 87px;
+  font-size: 2.9vvw;
+  line-height: 9.35vh;
   color: #201b13;
 }
 .barTitle {
   position: absolute;
-  width: 700px;
-  height: 87px;
-  left: 161px;
-  top: 3460.32px;
+  width: 32vw;
+  height: 9.3vh;
+  left: 8.3vw;
+  top: 428.7vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 56px;
-  line-height: 87px;
+  font-size: 2.9vvw;
+  line-height: 9.35vh;
   text-transform: uppercase;
   color: #201b13;
 }
 .barLine-title {
   position: absolute;
-  width: 80px;
+  width: 4.1vw;
   height: 1.5px;
-  left: 162px;
-  top: 3650.32px;
+  left: 8.3vw;
+  top: 441.1vh;
   background: #6f4f28;
 }
 .barImg1 {
-  width: 546px;
-  height: 595px;
+  width: 28.4vw;
+  height: 64.2vh;
   background: url("https://s3-alpha-sig.figma.com/img/f3b4/da8c/7aba0ef09af7b27452c4b220a34f4374?Expires=1626652800&Signature=HQ6wC52gnitpHrwRR~3OEmssYW3v9oEJe0g4QB6kOAyNRYjr4UWPbjfB5Z9BmTtQRkC5230wTpsm5~HEkg4DH3RRJDJA~uoSZ5~7qvE1eBGh3xczY3rFPq3YBgzwjv9lRBAqqvLnQ949CbPk~JmNioL5cCzEmH3OPvP3gUE8bbyPPG36tIy0t44mufkNEjUpNPfP-5K6Sux7FxrWEiFvS4OdyhKxemC-tHVo2rcZ8XvEA2oGBwuJ1tO1Aq3q-5V1Cn05eYIedlWa2AWNhrYYXZyxAnjpGdqv6IXxohKPxeiPmKYzwvsMmbUR51L7e2jJyrlKfJWW1~LFqsrBVHV20Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .barImg2 {
-  width: 546px;
-  height: 595px;
-  margin-left: 20px;
+  width: 28.4vw;
+  height: 64.2vh;
+  margin-left: 1.4vw;
   background: url("https://s3-alpha-sig.figma.com/img/a051/663d/61adf294fa2674816f03e54ddaae6afe?Expires=1626652800&Signature=Knejzf4oDaxVRV07iQ7KK23ASqX1-~EJFMrVx4AjqdU6OZqQN92vN4ZSBmXNkcvPXY0XyP8TwT9LEKim8jkVlMwUC5mSQKuMebG7tLO60CM2znl-CzFODLri1mXL7UTVvFW6CPxAT3RiLA0XWDuoNTRzSHxWYFi5N8Ye2MeI0EIeCpIxdaqnCna~hoKc11-dzAhOWuej6DaI-AYiP5cUlxyLaNzjdXeSbH5hC5iHFixIW~ZzLzD2~UnAWZ3a~4Q9DwQjGhFQUHP02l0zhleax85FJrSNQ7~gXQlDKpT7rDMDI~amYO9qe66~~QWV0IYcGaBOs4tmyT4fKDUpXDmGDA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
   background-repeat: no-repeat;
   background-position: center;
@@ -331,18 +345,18 @@
 }
 
 .barImg3 {
-  width: 546px;
-  height: 595px;
-  margin-left: 20px;
+  width: 28.4vw;
+  height: 64.2vh;
+  margin-left: 1.4vw;
   background: url("https://s3-alpha-sig.figma.com/img/8392/72b3/d6a618873fddf1a50a6e468d08d34514?Expires=1626652800&Signature=fKNLMzbTxzO~jw3osNyDPsVCK-L2EAP8TGLroggpHTtfAOX1yHlEBPt2W-~JooljyI04aiCVF2JfrFZaGDLrdLWpXlPQxyqQVpm3hyUzrMm7yFOV3HDEy0JOv29E5vShcXz~upMQZj6KMnhC8YOyYjfYskgiOKwdl05J1EMW9ya5EBz7r52DPXdP~WHC9uPDuKVfbETEaEhq8Go9TclGf6sYaV8idgT83iXxPFK0g7r5oPSZh6a0fnJSQfFBKnomGFKXVuLdTOAqhSeFyQC3LUnf7kqAML8HeApC2mIovqMCxCD7Uv2BH7bC1iqbta37Ip4plv9GEUSMirU4SDwyPw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .barImg4 {
-  width: 546px;
-  height: 595px;
-  margin-left: 20px;
+  width: 28.4vw;
+  height: 64.2vh;
+  margin-left: 1.4vw;
   background: url("https://s3-alpha-sig.figma.com/img/8392/72b3/d6a618873fddf1a50a6e468d08d34514?Expires=1626652800&Signature=fKNLMzbTxzO~jw3osNyDPsVCK-L2EAP8TGLroggpHTtfAOX1yHlEBPt2W-~JooljyI04aiCVF2JfrFZaGDLrdLWpXlPQxyqQVpm3hyUzrMm7yFOV3HDEy0JOv29E5vShcXz~upMQZj6KMnhC8YOyYjfYskgiOKwdl05J1EMW9ya5EBz7r52DPXdP~WHC9uPDuKVfbETEaEhq8Go9TclGf6sYaV8idgT83iXxPFK0g7r5oPSZh6a0fnJSQfFBKnomGFKXVuLdTOAqhSeFyQC3LUnf7kqAML8HeApC2mIovqMCxCD7Uv2BH7bC1iqbta37Ip4plv9GEUSMirU4SDwyPw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
   background-repeat: no-repeat;
   background-position: center;
@@ -350,29 +364,29 @@
 }
 .arrowLeft {
   position: absolute;
-  width: 35px;
+  width: 1.8vw;
   height: 0px;
-  left: 161px;
-  top: 4420.07px;
+  left: 8.46vw;
+  top: 519.8vh;
   color: #6f4f28;
   cursor: pointer;
 }
 .arrowRight {
   position: absolute;
-  width: 55px;
+  width: 1.8vw;
   height: 0px;
-  left: 237.39px;
-  top: 4420.07px;
+  left: 12.4vw;
+  top: 519.8vh;
   transform: rotate(180deg);
   color: #6f4f28;
   cursor: pointer;
 }
 .barLine {
   position: absolute;
-  width: 946px;
+  width: 75.5vw;
   height: 1px;
-  left: 312px;
-  top: 4433.07px;
+  left: 16.3vw;
+  top: 521.8vh;
   background: #6f4f28;
   opacity: 0.2;
 }
@@ -380,25 +394,25 @@
   position: absolute;
   width: 5px;
   height: 27px;
-  left: 1220px;
-  top: 4400.7px;
+  left: 89.6vw;
+  top: 517.7vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 0.8vw;
   line-height: 170%;
   color: #6f4f28;
 }
 .slash {
   position: absolute;
   width: 6px;
-  height: 27px;
-  left: 1238px;
-  top: 4403.04px;
+  height: 2.9vh;
+  left: 90.3vw;
+  top: 517.9vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 0.8vw;
   line-height: 170%;
   color: #6f4f28;
 }
@@ -406,31 +420,31 @@
   position: absolute;
   width: 13px;
   height: 27px;
-  left: 1245px;
-  top: 4407.7px;
+  left: 90.6vw;
+  top: 518.5vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 0.8vw;
   line-height: 170%;
   color: #6f4f28;
   opacity: 0.2;
 }
 .small-line {
   position: absolute;
-  width: 63px;
+  width: 3.2vw;
   height: 0px;
-  left: 312px;
-  top: 4432.07px;
+  left: 16.3vw;
+  top: 521.6vh;
   border: 1.5px solid #6f4f28;
   background-color: #6f4f28;
 }
 .pool {
   position: absolute;
-  width: 600px;
-  height: 563.92px;
-  left: 161.56px;
-  top: 4580px;
+  width: 42.6vw;
+  height: 60.9vh;
+  left: 8.4vw;
+  top: 543.6vh;
   background: rgba(255, 251, 248, 0.77);
   backdrop-filter: blur(34px);
   display: flex;
@@ -439,40 +453,40 @@
   z-index: 1;
 }
 .pool-title {
-  height: 154px;
+  height: 17vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 56px;
-  line-height: 87px;
+  font-size: 2.5vw;
+  line-height: 8vh;
   text-transform: uppercase;
   color: #201b13;
   text-align: center;
 }
 .pool-line {
-  width: 80px;
-  height: 1.5px;
+  width: 4.1vw;
+  height: 0.22vh;
   background: #6f4f28;
 }
 .pool-text {
-  width: 560px;
-  height: 99px;
+  width: 32vw;
+  height: 11vh;
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 1.25vw;
   line-height: 150%;
   text-align: center;
   color: #201b13;
 }
 .pool-button {
-  margin-top: 50px;
-  width: 286px;
-  height: 50px;
+  margin-top: 6vh;
+  width: 15vw;
+  height: 5vh;
   mix-blend-mode: normal;
   border: 0.5px solid #6f4f28;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 1vw;
   line-height: 150%;
   display: flex;
   align-items: center;
@@ -483,21 +497,21 @@
 }
 .poolImg1 {
   position: absolute;
-  width: 640.28px;
-  height: 490px;
-  left: 700px;
-  top: 4800px;
+  width: 44.8vw;
+  height: 70.2vh;
+  left: 46.6vw;
+  top: 567.7vh;
   background: url("https://s3-alpha-sig.figma.com/img/375e/d5cd/262bcdbdab107ce114e4432e24f7323a?Expires=1627257600&Signature=AutEHPdBvvBcNu5EglWNzeUwCxHVdGYNjrMVG6KNrPtYy38rw-XMcvoY~9A0l8Tqd3lF70rpxf6cKJvndiuESvOIvH0MlClp8JthLCsKjeB83XeSCDBT3QxlsbThspkgc2JbajWjVUyrmcspgLRqEbL5Ag4EGDmFxqyGbB8PisDa2XODlJHhgXU~atXXG~JWHZSMRWhXH2wBDwXGeOom4BORZZFmOV7D3qJghNxNvrQohc1xhmJDUvLEjUhb3o3CRJl9TXp3H41wRe9kxD2TvkcDBAKXdyPN9buWqlZRW883pU7M6QkIOHsx6iNSF4OjSPU5qHR68SC5-YqRzkIdcA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position-y: center;
   background-size: cover;
 }
 .poolImg2 {
   position: absolute;
-  width: 424px;
-  height: 430px;
-  left: 500px;
-  top: 5140px;
+  width: 22.08vw;
+  height: 46.36vh;
+  left: 35.84vw;
+  top: 604.6vh;
   background: url("https://s3-alpha-sig.figma.com/img/e5fa/f376/f0e9afdace3df76133eb3d458305d7d1?Expires=1627257600&Signature=ccVDA6xcDefCDjwxnYmLdV6G-~5fWhPiAubwbHrop6t8brrQ3z0P0q3iKeokLeGKG8VxCs6Cj2vpcQ3go9GSfdB26wbVm-Dgmm8AP8F0f0vgZQAjJmNPhZ2IK5Agb1h~q2-1oqc-mKv3M9Lx-yCmlG-LeFPymBeGn3T2~L3PUQO-sW97raMTJu61Pkjpr7QndA5itkdzqQWY1JXiEezcqkz56SeB7FC2hHkeP~Sq0M04lQJOqBbEYgo0xYTD3aJ~7xGI1Z1-1Upx0rjji8URMQjdpQYg92c1WuGxv7Accp6eO03JLkwQdAvw3R1X~DNK4VYZ6PzQ2cuKNFScu5q7Tg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
   border-radius: 0px 0px 350px 350px;
   background-position: center;

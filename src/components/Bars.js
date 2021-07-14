@@ -8,7 +8,7 @@ function Bars() {
   const images = useRef();
   const line = useRef();
   const [count, setCount] = useState(0);
-  const pageNum = 3;
+  const pageNum = 4;
 
   useEffect(() => {
     const size = images.current.children[0].clientWidth + 20;
@@ -23,18 +23,19 @@ function Bars() {
       <div className="barLine-title" />
       <div
         style={{
-          width: "88%",
+          width: "95.7vw",
           overflow: "hidden",
           height: 595,
           position: "absolute",
-          left: 162,
-          top: 3750.82,
+          left: "8.4vw",
+          top: "446.5vh",
         }}
       >
-        <div ref={images} style={{ width: "2275px", display: "flex" }}>
+        <div ref={images} style={{ width: "118.2vw", display: "flex" }}>
           <div className="barImg1" />
           <div className="barImg2" />
           <div className="barImg3" />
+          <div className="barImg4" />
         </div>
       </div>
       <span className="page1">{imgCount}</span>
@@ -59,30 +60,40 @@ function Bars() {
       <div ref={line} className="small-line" />
       <div className="barLine" />
       <SocialMedia media={"bars"} />
-      <button
+      <span
         style={{
           position: "absolute",
-          width: 72,
-          height: 68,
-          left: "87%",
-          top: "4300.89px",
+          width: "3.55vw",
+          height: "6.19vh",
+          left: "92.5vw",
+          top: "506vh",
           background: "#6F4F28",
           border: "0.5px solid #6F4F28",
           boxSizing: "border-box",
-          textAlign: "center",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          verticalAlign: "center",
           letterSpacing: "0.05em",
           textTransform: "uppercase",
           color: "#FFFFFF",
           fontFamily: "Inter",
-          fontSize: "16px",
+          fontSize: "0.73vw",
           lineHeight: "150%",
           cursor: "pointer",
         }}
       >
-        <a href="#Booking" style={{ textDecoration: "none", color: "#FFFFFF" }}>
+        <a
+          href="#Booking"
+          style={{
+            textDecoration: "none",
+            color: "#FFFFFF",
+            textAlign: "center",
+          }}
+        >
           book now
         </a>
-      </button>
+      </span>
     </div>
   );
 }

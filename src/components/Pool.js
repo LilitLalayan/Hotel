@@ -16,36 +16,49 @@ function Pool() {
           sunbathe. What if we add some exclusive cocktails? Gorgeous, isn't it?
         </p>
         <buttun className="pool-button">
-          MORE <ArrowForwardIosIcon style={{ fontSize: 16, marginLeft: 10 }} />
+          MORE{" "}
+          <ArrowForwardIosIcon
+            style={{ fontSize: "1vw", marginLeft: "0.7vw" }}
+          />
         </buttun>
       </div>
       <div className="poolImg1" />
       <div className="poolImg2" />
       <SocialMedia media={"pool"} />
-      <button
+      <span
         style={{
           position: "absolute",
-          width: 72,
-          height: 68,
-          left: "87%",
-          top: "5290.52px",
+          width: "3.55vw",
+          height: "6.19vh",
+          left: "92.5vw",
+          top: "623vh",
           background: "#6F4F28",
           border: "0.5px solid #6F4F28",
           boxSizing: "border-box",
-          textAlign: "center",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          verticalAlign: "center",
           letterSpacing: "0.05em",
           textTransform: "uppercase",
           color: "#FFFFFF",
           fontFamily: "Inter",
-          fontSize: "16px",
+          fontSize: "0.73vw",
           lineHeight: "150%",
           cursor: "pointer",
         }}
       >
-        <a href="#Booking" style={{ textDecoration: "none", color: "#FFFFFF" }}>
+        <a
+          href="#Booking"
+          style={{
+            textDecoration: "none",
+            color: "#FFFFFF",
+            textAlign: "center",
+          }}
+        >
           book now
         </a>
-      </button>
+      </span>
     </div>
   );
 }
