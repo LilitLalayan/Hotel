@@ -14,6 +14,12 @@ function SocialMedia({ media }) {
     className = "mediaBar";
   } else if (media === "pool") {
     className = "mediaPool";
+  } else if (media === "gallery") {
+    className = "mediaGallery";
+  } else if (media === "news") {
+    className = "mediaNews";
+  } else if (media === "contact") {
+    className = "mediaContact";
   }
   return (
     <div className={className}>

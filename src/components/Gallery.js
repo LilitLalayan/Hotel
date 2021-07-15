@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
 import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
+import SocialMedia from "./SocialMedia";
 
 function Gallery() {
   const [currPage, setCurrPage] = useState(1);
@@ -40,6 +41,41 @@ function Gallery() {
           }}
         />
       </div>
+      <SocialMedia media={"gallery"} />
+      <span
+        style={{
+          position: "absolute",
+          width: "3.55vw",
+          height: "6.19vh",
+          left: "92.5vw",
+          top: "757.6vh",
+          background: "#6F4F28",
+          border: "0.5px solid #6F4F28",
+          boxSizing: "border-box",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          verticalAlign: "center",
+          letterSpacing: "0.05em",
+          textTransform: "uppercase",
+          color: "#FFFFFF",
+          fontFamily: "Inter",
+          fontSize: "0.73vw",
+          lineHeight: "150%",
+          cursor: "pointer",
+        }}
+      >
+        <a
+          href="#Booking"
+          style={{
+            textDecoration: "none",
+            color: "#FFFFFF",
+            textAlign: "center",
+          }}
+        >
+          book now
+        </a>
+      </span>
     </>
   );
 }

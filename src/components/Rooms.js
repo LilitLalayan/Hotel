@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import SocialMedia from "./SocialMedia";
+import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 
 function Rooms() {
   return (
@@ -16,7 +17,10 @@ function Rooms() {
         <div
           style={{ height: "41.58vh", width: "17.8vw", marginTop: "10.39vh" }}
         >
-          <h3 className="h3">Standard Twin</h3>
+          <div className="room-box">
+            <KeyboardBackspaceIcon className="h3-arrow" />
+            <h3 className="h3">Standard Twin</h3>
+          </div>
           <h3 className="h3">Standard Double</h3>
           <h3 className="h3">Family</h3>
           <h3 className="h3">Deluxe</h3>
