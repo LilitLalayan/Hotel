@@ -9,7 +9,6 @@ function Header() {
         top: 0,
         height: "14.9vh",
         backgroundColor: "#FDF9E5",
-        display: "flex",
         width: "100%",
       }}
     >
@@ -25,7 +24,6 @@ function Header() {
         flag
       </span>
       <div className="header-logo" />
-
       <span
         style={{
           top: "8.88vh",
