@@ -5,8 +5,8 @@ import SocialMedia from "./SocialMedia";
 
 function Bars() {
   const [imgCount, setImgCount] = useState(1);
-  const images = useRef();
-  const line = useRef();
+  const images = useRef(null);
+  const line = useRef(null);
   const [count, setCount] = useState(0);
   const pageNum = 4;
 
@@ -14,7 +14,7 @@ function Bars() {
     const size = images.current.children[0].clientWidth + 20;
     images.current.style.transition = "transform 1s ease-in-out";
     images.current.style.transform = "translateX(" + -size * count + "px)";
-  }, [imgCount, count]);
+  }, [count, imgCount]);
 
   return (
     <div>

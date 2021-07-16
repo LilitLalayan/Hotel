@@ -311,7 +311,7 @@
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.25vw;
   line-height: 170%;
   text-align: center;
   color: #201b13;
@@ -334,14 +334,17 @@
 }
 
 .h3-arrow {
-  position: absolute;
   transform: rotate(180deg);
   color: #6f4f28;
   cursor: pointer;
   font-size: 1.79vw;
+  line-height: 3.82vh;
   display: none;
 }
-
+.room-box {
+  display: flex;
+  align-items: center;
+}
 .rooms-img {
   position: absolute;
   width: 61.5vw;
@@ -362,7 +365,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.9vvw;
+  font-size: 2.9vw;
   line-height: 9.35vh;
   color: #201b13;
 }
@@ -375,7 +378,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.9vvw;
+  font-size: 2.9vw;
   line-height: 9.35vh;
   text-transform: uppercase;
   color: #201b13;
