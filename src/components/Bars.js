@@ -8,12 +8,15 @@ function Bars() {
   const images = useRef(null);
   const line = useRef(null);
   const [count, setCount] = useState(0);
-  const pageNum = 4;
+  const pageNum = 8;
+  const lineWidth = 9.4;
+  const [lineMargin, setLineMargin] = useState(16.3);
 
   useEffect(() => {
     const size = images.current.children[0].clientWidth + 20;
     images.current.style.transition = "transform 1s ease-in-out";
     images.current.style.transform = "translateX(" + -size * count + "px)";
+    line.current.style.left = `${lineMargin}vw`;
   }, [count, imgCount]);
 
   return (
@@ -23,7 +26,7 @@ function Bars() {
       <div className="barLine-title" />
       <div
         style={{
-          width: "90.3vw",
+          width: "90vw",
           overflow: "hidden",
           height: 595,
           position: "absolute",
@@ -31,13 +34,18 @@ function Bars() {
           top: "446.5vh",
         }}
       >
-        <div ref={images} style={{ width: "118.2vw", display: "flex" }}>
+        <div ref={images} style={{ width: "237vw", display: "flex" }}>
           <div className="barImg1" />
           <div className="barImg2" />
           <div className="barImg3" />
           <div className="barImg4" />
+          <div className="barImg5" />
+          <div className="barImg6" />
+          <div className="barImg7" />
+          <div className="barImg8" />
         </div>
       </div>
+      <div ref={line} className="small-line" />
       <span className="page1">{imgCount}</span>
       <span className="slash">/</span>
       <span className="lastPage">{pageNum}</span>
@@ -47,6 +55,7 @@ function Bars() {
           if (count === 0) return;
           setCount((prev) => prev - 1);
           setImgCount((prev) => prev - 1);
+          setLineMargin((prev) => prev - lineWidth);
         }}
       />
       <KeyboardBackspaceIcon
@@ -55,9 +64,10 @@ function Bars() {
           if (count === pageNum - 1) return;
           setCount((prev) => prev + 1);
           setImgCount((prev) => prev + 1);
+          setLineMargin((prev) => prev + lineWidth);
         }}
       />
-      <div ref={line} className="small-line" />
+
       <div className="barLine" />
       <SocialMedia media={"bars"} />
       <span

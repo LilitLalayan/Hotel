@@ -35,7 +35,15 @@ function Footer() {
       <div className="credit-cards" />
       <div className="design">
         <span className="design-span">Design and development</span>
-        <span className="design-weflex">WeFlex</span>
+        <span className="design-weflex">
+          <a
+            style={{ textDecoration: "none", color: "#201B13" }}
+            href="https://weflex.am/"
+            target="_blank"
+          >
+            WeFlex
+          </a>
+        </span>
       </div>
     </div>
   );

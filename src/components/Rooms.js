@@ -1,16 +1,23 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import "../App.css";
 import SocialMedia from "./SocialMedia";
 import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 import { Box } from "@material-ui/core";
 
 function Rooms() {
-  const [over, setOver] = useState(false);
   const arrow1 = useRef(null);
   const arrow2 = useRef(null);
   const arrow3 = useRef(null);
   const arrow4 = useRef(null);
   const arrow5 = useRef(null);
+  const imgRef = useRef(null);
+  useEffect(() => {
+    arrow1.current.style.display = "none";
+    arrow2.current.style.display = "none";
+    arrow3.current.style.display = "none";
+    arrow4.current.style.display = "block";
+    arrow5.current.style.display = "none";
+  }, []);
 
   return (
     <div>
@@ -33,6 +40,8 @@ function Rooms() {
               className="h3"
               onMouseOver={(e) => {
                 arrow1.current.style.display = "block";
+                imgRef.current.style.backgroundImage = `url("https://www.hno.co.jp/oversea/accommodation/room/standard-twin-001a.jpg")`;
+                arrow4.current.style.display = "none";
               }}
               onMouseOut={(e) => {
                 arrow1.current.style.display = "none";
@@ -49,6 +58,8 @@ function Rooms() {
               className="h3"
               onMouseOver={(e) => {
                 arrow2.current.style.display = "block";
+                imgRef.current.style.backgroundImage = `url("https://www.pavillon-monceau.com/files/hotel/pavillon-monceau/chambres/chambre_standard_.jpg")`;
+                arrow4.current.style.display = "none";
               }}
               onMouseOut={(e) => {
                 arrow2.current.style.display = "none";
@@ -65,6 +76,8 @@ function Rooms() {
               className="h3"
               onMouseOver={(e) => {
                 arrow3.current.style.display = "block";
+                imgRef.current.style.backgroundImage = `url("https://www.kilkennyormonde.com/upload/slide_images/club-room-01.jpg")`;
+                arrow4.current.style.display = "none";
               }}
               onMouseOut={(e) => {
                 arrow3.current.style.display = "none";
@@ -81,6 +94,7 @@ function Rooms() {
               className="h3"
               onMouseOver={(e) => {
                 arrow4.current.style.display = "block";
+                imgRef.current.style.backgroundImage = `url("https://s7d2.scene7.com/is/image/ritzcarlton/RCKUALA_00123?$XlargeViewport100pct$")`;
               }}
               onMouseOut={(e) => {
                 arrow4.current.style.display = "none";
@@ -97,6 +111,8 @@ function Rooms() {
               className="h3"
               onMouseOver={(e) => {
                 arrow5.current.style.display = "block";
+                imgRef.current.style.backgroundImage = `url("https://www.bestofathens.gr/sites/default/files/fantastic_hotel_room.jpg")`;
+                arrow4.current.style.display = "none";
               }}
               onMouseOut={(e) => {
                 arrow5.current.style.display = "none";
@@ -107,7 +123,7 @@ function Rooms() {
           </div>
         </div>
       </div>
-      <div className="rooms-img" />
+      <div ref={imgRef} className="rooms-img" />
       <SocialMedia media={"rooms"} />
       <span
         style={{

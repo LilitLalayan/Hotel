@@ -266,10 +266,13 @@
   height: 108.5vh;
   left: 46.7vw;
   top: 157.86vh;
-  background: url("https://s3-alpha-sig.figma.com/img/939e/a2a1/81a40aa838acab99b8be160e900c44ee?Expires=1626652800&Signature=deDgbd4rFJ9V55iA3ApEPIdXkQr5E1iOo1kXiJXT5SeOy9c0fRPJCRF8aitKMaX-p~ETvMURCFJD7yH6N6Ikk8mqcxKFJjzSCtmB1lyCOFEnPhTecJOha~nQrDYCsXqYr8HlnZelPZ1vLuBnX10DdWjBGwsDD9~CWIRApV4-Y9E~tCj08eGGtT3ZdXe9ROlGCo5PajiDH0VsP555wZ45BbtTOrVkZYgA4M8YoIR1n2vfARX3cc8pyQ70xSbcvYCbslfF7BTEz~NAALqz3nV-dbC8tAzIwP3U1mvp3DDb3Um-~sLaKrtzbHsbGEGDXiSfafvfhFYdSy7SBKoGbSMXhg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://images.pexels.com/photos/6434631/pexels-photo-6434631.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
+}
+.about-img1:hover {
+  z-index: 1;
 }
 .about-img2 {
   position: absolute;
@@ -277,7 +280,7 @@
   height: 42.2vh;
   left: 71vw;
   top: 229.66vh;
-  background: url("https://s3-alpha-sig.figma.com/img/9e47/6792/2764841f56435980785b22224f0414be?Expires=1626652800&Signature=QKmLpTPuyVDPYAapOwL4t7g9qFupD22Sa1VT~wMTGzAdVfUa13XW39456jHTOUl3CFL9wkW4mJFnVrJkXTjjMfzZUMb0hOttbwOwmix~DIntuh5N4YXAP-IDeGgg8J9l55P76tFaR2eGgi99NHcjXXJMONKiFuJbq9MKfYG05Hi-CR5IXBWo7YIwGm6Cxd9r-9rvnO67YT9h7YCAhSXFquClDCojtQ8bqNKofXO51ei~PZmsVPRthcTpnFlnP8fSrT1~V0D6jyq30GVjQgL8m~Tfa7F1zwSW9WFJeMoADt0MoCPsHeTGAkNnSdG1vFAolUQHOMECp3iIY6HktvCW6w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://images.pexels.com/photos/6466304/pexels-photo-6466304.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   border-radius: 0px 0px 350px 350px;
   background-size: cover;
   background-position: center;
@@ -323,7 +326,6 @@
   font-style: normal;
   font-weight: normal;
   font-size: 1.79vw;
-  line-height: 3.82vh;
   color: #201b13;
   cursor: pointer;
   display: flex;
@@ -338,12 +340,11 @@
   color: #6f4f28;
   cursor: pointer;
   font-size: 1.79vw;
-  line-height: 3.82vh;
-  display: none;
 }
 .room-box {
   display: flex;
   align-items: center;
+  height: 7.82vh;
 }
 .rooms-img {
   position: absolute;
@@ -351,10 +352,13 @@
   height: 73.39vh;
   left: 36.8vw;
   top: 330.53vh;
-  background: url("https://s3-alpha-sig.figma.com/img/3e3a/bc95/9cc3922f1d2a66df98775f35ad85ba83?Expires=1626652800&Signature=TGLGId7kQWNscv84gD4KwkTZf0UTNaGJf4BOqIMLahzwv3LB2UJJWh2sXvl9XIaDGlE7d62s6ztwkUlWLKzWRym5uiJxp3p5OAuRHrynXzlAeMv00hJtZpBI-macGyv2u8N~NEkfIlKDB~nw9l8rcWGShEpFbPOkMWBtz9pjonvH7uCN2pUOwTFNCKui9J8szTGXz4lwuBjo6Tx-3oxky-ppqwOpVobITDmM9vOxnAyrj7LYo~jDN6ou~hi6i~1GnWZuKgN2eDVxO85OWkjzoHghFfADJuxs9BNI0~RFP5UZk5UP-vzq-QPExZlgWMcbxdE40d9ZO~S1C-JaTin7ow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://s7d2.scene7.com/is/image/ritzcarlton/RCKUALA_00123?$XlargeViewport100pct$");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.rooms-img:hover {
+  z-index: 1;
 }
 .barWelcome {
   position: absolute;
@@ -394,15 +398,16 @@
 .barImg1 {
   width: 28.4vw;
   height: 64.2vh;
-  background: url("https://s3-alpha-sig.figma.com/img/f3b4/da8c/7aba0ef09af7b27452c4b220a34f4374?Expires=1626652800&Signature=HQ6wC52gnitpHrwRR~3OEmssYW3v9oEJe0g4QB6kOAyNRYjr4UWPbjfB5Z9BmTtQRkC5230wTpsm5~HEkg4DH3RRJDJA~uoSZ5~7qvE1eBGh3xczY3rFPq3YBgzwjv9lRBAqqvLnQ949CbPk~JmNioL5cCzEmH3OPvP3gUE8bbyPPG36tIy0t44mufkNEjUpNPfP-5K6Sux7FxrWEiFvS4OdyhKxemC-tHVo2rcZ8XvEA2oGBwuJ1tO1Aq3q-5V1Cn05eYIedlWa2AWNhrYYXZyxAnjpGdqv6IXxohKPxeiPmKYzwvsMmbUR51L7e2jJyrlKfJWW1~LFqsrBVHV20Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://images.unsplash.com/photo-1626202157220-562d4150f94d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fHJlc3RhdXJhbnQlMjBkaXNofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .barImg2 {
   width: 28.4vw;
   height: 64.2vh;
   margin-left: 1.4vw;
-  background: url("https://s3-alpha-sig.figma.com/img/a051/663d/61adf294fa2674816f03e54ddaae6afe?Expires=1626652800&Signature=Knejzf4oDaxVRV07iQ7KK23ASqX1-~EJFMrVx4AjqdU6OZqQN92vN4ZSBmXNkcvPXY0XyP8TwT9LEKim8jkVlMwUC5mSQKuMebG7tLO60CM2znl-CzFODLri1mXL7UTVvFW6CPxAT3RiLA0XWDuoNTRzSHxWYFi5N8Ye2MeI0EIeCpIxdaqnCna~hoKc11-dzAhOWuej6DaI-AYiP5cUlxyLaNzjdXeSbH5hC5iHFixIW~ZzLzD2~UnAWZ3a~4Q9DwQjGhFQUHP02l0zhleax85FJrSNQ7~gXQlDKpT7rDMDI~amYO9qe66~~QWV0IYcGaBOs4tmyT4fKDUpXDmGDA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://images.unsplash.com/photo-1518619745898-93e765966dcd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2F0ZXJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -412,7 +417,7 @@
   width: 28.4vw;
   height: 64.2vh;
   margin-left: 1.4vw;
-  background: url("https://s3-alpha-sig.figma.com/img/8392/72b3/d6a618873fddf1a50a6e468d08d34514?Expires=1626652800&Signature=fKNLMzbTxzO~jw3osNyDPsVCK-L2EAP8TGLroggpHTtfAOX1yHlEBPt2W-~JooljyI04aiCVF2JfrFZaGDLrdLWpXlPQxyqQVpm3hyUzrMm7yFOV3HDEy0JOv29E5vShcXz~upMQZj6KMnhC8YOyYjfYskgiOKwdl05J1EMW9ya5EBz7r52DPXdP~WHC9uPDuKVfbETEaEhq8Go9TclGf6sYaV8idgT83iXxPFK0g7r5oPSZh6a0fnJSQfFBKnomGFKXVuLdTOAqhSeFyQC3LUnf7kqAML8HeApC2mIovqMCxCD7Uv2BH7bC1iqbta37Ip4plv9GEUSMirU4SDwyPw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -421,11 +426,48 @@
   width: 28.4vw;
   height: 64.2vh;
   margin-left: 1.4vw;
+  background: url("https://images.unsplash.com/photo-1559339352-11d035aa65de?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByZXN0YXVyYW50fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.barImg5 {
+  width: 28.4vw;
+  height: 64.2vh;
+  margin-left: 1.4vw;
+  background: url("https://images.unsplash.com/photo-1572116469696-31de0f17cc34?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.barImg6 {
+  width: 28.4vw;
+  height: 64.2vh;
+  margin-left: 1.4vw;
+  background: url("https://images.pexels.com/photos/903376/pexels-photo-903376.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.barImg7 {
+  width: 28.4vw;
+  height: 64.2vh;
+  margin-left: 1.4vw;
   background: url("https://s3-alpha-sig.figma.com/img/8392/72b3/d6a618873fddf1a50a6e468d08d34514?Expires=1626652800&Signature=fKNLMzbTxzO~jw3osNyDPsVCK-L2EAP8TGLroggpHTtfAOX1yHlEBPt2W-~JooljyI04aiCVF2JfrFZaGDLrdLWpXlPQxyqQVpm3hyUzrMm7yFOV3HDEy0JOv29E5vShcXz~upMQZj6KMnhC8YOyYjfYskgiOKwdl05J1EMW9ya5EBz7r52DPXdP~WHC9uPDuKVfbETEaEhq8Go9TclGf6sYaV8idgT83iXxPFK0g7r5oPSZh6a0fnJSQfFBKnomGFKXVuLdTOAqhSeFyQC3LUnf7kqAML8HeApC2mIovqMCxCD7Uv2BH7bC1iqbta37Ip4plv9GEUSMirU4SDwyPw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+.barImg8 {
+  width: 28.4vw;
+  height: 64.2vh;
+  margin-left: 1.4vw;
+  background: url("https://images.pexels.com/photos/2373201/pexels-photo-2373201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .arrowLeft {
   position: absolute;
   width: 1.8vw;
@@ -496,7 +538,7 @@
 }
 .small-line {
   position: absolute;
-  width: 3.2vw;
+  width: 9.4vw;
   height: 0px;
   left: 16.3vw;
   top: 521.6vh;
@@ -565,10 +607,13 @@
   height: 70.2vh;
   left: 46.6vw;
   top: 567.7vh;
-  background: url("https://s3-alpha-sig.figma.com/img/375e/d5cd/262bcdbdab107ce114e4432e24f7323a?Expires=1627257600&Signature=AutEHPdBvvBcNu5EglWNzeUwCxHVdGYNjrMVG6KNrPtYy38rw-XMcvoY~9A0l8Tqd3lF70rpxf6cKJvndiuESvOIvH0MlClp8JthLCsKjeB83XeSCDBT3QxlsbThspkgc2JbajWjVUyrmcspgLRqEbL5Ag4EGDmFxqyGbB8PisDa2XODlJHhgXU~atXXG~JWHZSMRWhXH2wBDwXGeOom4BORZZFmOV7D3qJghNxNvrQohc1xhmJDUvLEjUhb3o3CRJl9TXp3H41wRe9kxD2TvkcDBAKXdyPN9buWqlZRW883pU7M6QkIOHsx6iNSF4OjSPU5qHR68SC5-YqRzkIdcA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://images.unsplash.com/photo-1551491603-7d38b9e605f5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHBvb2x8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-repeat: no-repeat;
   background-position-y: center;
   background-size: cover;
+}
+.poolImg1:hover {
+  z-index: 1;
 }
 .poolImg2 {
   position: absolute;
@@ -576,7 +621,7 @@
   height: 46.36vh;
   left: 35.84vw;
   top: 604.6vh;
-  background: url("https://s3-alpha-sig.figma.com/img/e5fa/f376/f0e9afdace3df76133eb3d458305d7d1?Expires=1627257600&Signature=ccVDA6xcDefCDjwxnYmLdV6G-~5fWhPiAubwbHrop6t8brrQ3z0P0q3iKeokLeGKG8VxCs6Cj2vpcQ3go9GSfdB26wbVm-Dgmm8AP8F0f0vgZQAjJmNPhZ2IK5Agb1h~q2-1oqc-mKv3M9Lx-yCmlG-LeFPymBeGn3T2~L3PUQO-sW97raMTJu61Pkjpr7QndA5itkdzqQWY1JXiEezcqkz56SeB7FC2hHkeP~Sq0M04lQJOqBbEYgo0xYTD3aJ~7xGI1Z1-1Upx0rjji8URMQjdpQYg92c1WuGxv7Accp6eO03JLkwQdAvw3R1X~DNK4VYZ6PzQ2cuKNFScu5q7Tg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://images.unsplash.com/photo-1589556634259-ed703b39685f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBvb2wlMjBmbG93ZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   border-radius: 0px 0px 350px 350px;
   background-position: center;
   background-size: cover;
@@ -665,7 +710,7 @@
   height: 54.1vh;
   top: 26.4vh;
   left: -10.4vw;
-  background-image: url("https://s3-alpha-sig.figma.com/img/f70a/d9c8/5e4f1558a3881bae83977afe3c78ce5b?Expires=1627257600&Signature=PSK~vbNNVWKRI9xvswPHAQ2qCZ6a9cdU03edn41nKJuivPlLIG8WqMNuU9-6pRasQ7BTuOO55E0o8joYsXDttVbTvoqlQ9rUYsObw~7bLMtEmvLuJq2amFhc1rWGitA3~tp5ozmhzLWvTdMA4RjAkjmqFIOCO3OAFuHjzMFFZNXbiCceBj9PGMxnCGMgTzuDyypkJG8Yv7kj~9LjCuCYY4Wl2SQDKugLYhTKvyZjDkKKHJsN8TlnLWP8QZfjmzYMOTjs1ZgnPk53qrNnb7ZlNjn9QA-sd2Akzk1uxPd8Ql2QJQaWkjkhqwaBVVhrZXX4jBMeP20esMR2jBTKlxOaeA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-image: url("https://images.pexels.com/photos/3771811/pexels-photo-3771811.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -676,7 +721,7 @@
   height: 54.1vh;
   top: 43vh;
   left: 11.9vw;
-  background-image: url("https://s3-alpha-sig.figma.com/img/f148/1685/fbf4ea1e128612c49cf79ca7d5d52692?Expires=1627257600&Signature=eq8EJ69nCTdJzcTTpT~OiddEz6CEVxocNij--kQlP8li9VARot83YILeXotWIbL7eDeUdTCvp7tzf3gvL2IR4tAjbJSZQ5dT9ajIZMYCs5HRGZJFaXwsAQaz0A9xURbvzUd~Io5jKSOrnSRAH9UgfwJRmycERs219PctGSin1ht2s4DxcSUTV1RT8HKmFYBNnOTS~ooYClgIwAySFUceUAwht9n5QgveqLXq-z3WBXrz4rkh3ZbiQKIwgLTRXhEBplneajzvdoa-uBRDgiZjsZnvLmpIFRWFJ45-GzXQYH2AHoQdDqNQUhWfLIDOhJy~bmzJhZCxn0GQKR-dAL4DNg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-image: url("https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -699,7 +744,7 @@
   top: 33.8vh;
   left: 66.9vw;
   border-radius: 0px 0px 350px 350px;
-  background-image: url("https://s3-alpha-sig.figma.com/img/06a1/12cc/c1a0d5034e44af33262ca3d6bdc57386?Expires=1627257600&Signature=HE9KS8za-GVDOFqhy~SM60AxkpGMePyvrvbGDcmsA-7BNTRFWJDPEun8D36sdSbmksjDgIfuMz0CO5T6rQdeIkIafPwsjs8fysH64W~4kJZgR4E7lF9hM0TRz0v0b4hmMk8QJubhe~f7ZPrMCa2IwscuiFXdCq6vrTrY9YdyPjYjEwOSYK~01HjstI4o7nAhXWDJurfCQ9pDrvjxIiY4VLMc87A9Zghb6SkftL-6D6Zz8qbfCoyMiAAQsgL5cMCkHrlJS1uZL-5prvvqy7BlHDX5SI3e4nBnhLIngJYZS3HQXgRDkMvawHR7hQFQSQSyjrn7dNVP2v7c2GxgSIUSgQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-image: url("https://images.unsplash.com/photo-1458576627435-430ad58ead3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVsJTIwcmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -710,7 +755,7 @@
   height: 66.5vh;
   top: 43vh;
   left: 90.5vw;
-  background-image: url("https://s3-alpha-sig.figma.com/img/9e47/6792/2764841f56435980785b22224f0414be?Expires=1627257600&Signature=edl7bkpsR08tEPq2Leoa4WKMs~NYtHEDq6A8O6-7HVtBhwHkfQRG-7DFpijT-ulrZBtLwQF8P2nD5vF3jZT7qe9slRiViwauNdj5aIQMsepaO-WBP62uKV-y96y0Co1rxO2mTdnGCd5Es6bYodUB18F7YmcTR-2~1RiFokcvICYI-CWqFvB~EpNK0UZhRurr7QSABssWJZYxSmEDCJWddFcwlx8QVt6qMQ2d-C469NWXCQ28TJsl2PJqwQz0sN~jrEgpxTazreNUqNL9muNTpObqQa7pmM6eD9twQJA8sYZ7Xe1GA-8ECwZ9mJfSX4B-6XBCkV4yntnUoTq3W8M4dA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-image: url("https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1038,6 +1083,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.contact-img:hover {
+  z-index: 1;
 }
 .contact-box {
   position: absolute;
