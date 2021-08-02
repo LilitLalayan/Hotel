@@ -8,8 +8,8 @@ function Bars() {
   const images = useRef(null);
   const line = useRef(null);
   const [count, setCount] = useState(0);
-  const pageNum = 8;
-  const lineWidth = 9.4;
+  const pageNum = 6;
+  const lineWidth = 12.58;
   const [lineMargin, setLineMargin] = useState(16.3);
 
   useEffect(() => {

@@ -17,11 +17,11 @@
 }
 .header-logo {
   position: absolute;
-  width: 13.3vw;
-  height: 19.95vh;
+  width: 11.3vw;
+  height: 17.95vh;
   left: 43.2vw;
-  top: -2.3vh;
-  background: url("https://s3-alpha-sig.figma.com/img/7e6e/7ac2/6694b1d2b05b683e9e4f2d2272b0e0e6?Expires=1627257600&Signature=dLM2MxNRsq4varQR3VRU2SrrUt1kUNuHXfG1MEW7W~pk3bb0NUA2ipkNQawiXkJjdVR2JrUeHcgssymXxm5H7nonom6chzuGGEaTz7eeQKUvY1988c7s9HAjq0yaN-VBZB-0mhzRIKxpEhZ238JXtTs6t4REtVNE7eoMcn3sGJTeyXetnTDq8lyazc9BkVppAzfjxm2eKhutyGiwAYXKPCvaN0H2s74J6aQkx5jRcTQe0Yf~Uc4vBWISRJGkLQRD34jxiqyipu1b7~5fSl1Zmw0PagGax7eKJu3H1ySL27nlolnU5iKZxPfD4qZvYPl6umdB1yx5fno8T~OQ8gmZnQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  top: 0.7vh;
+  background: url("http://localhost:3000/phoenix.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -122,16 +122,13 @@
 
 .welcome {
   position: absolute;
-  width: 9.77vw;
   height: 4.21vh;
-  left: 45.1vw;
-  top: 37.36vh;
+  top: 43.36vh;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.35vw;
+  font-size: 2vw;
   line-height: 150%;
-  text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #ffffff;
@@ -141,7 +138,7 @@
   position: absolute;
   width: 38.88vw;
   height: 29.9vh;
-  top: 43.3vh;
+  top: 51.3vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
@@ -245,7 +242,7 @@
 }
 .line {
   width: 4.1vw;
-  height: 0.14vh;
+  height: 1px;
   background-color: #6f4f28;
 }
 .about-text {
@@ -453,7 +450,7 @@
   width: 28.4vw;
   height: 64.2vh;
   margin-left: 1.4vw;
-  background: url("https://s3-alpha-sig.figma.com/img/8392/72b3/d6a618873fddf1a50a6e468d08d34514?Expires=1626652800&Signature=fKNLMzbTxzO~jw3osNyDPsVCK-L2EAP8TGLroggpHTtfAOX1yHlEBPt2W-~JooljyI04aiCVF2JfrFZaGDLrdLWpXlPQxyqQVpm3hyUzrMm7yFOV3HDEy0JOv29E5vShcXz~upMQZj6KMnhC8YOyYjfYskgiOKwdl05J1EMW9ya5EBz7r52DPXdP~WHC9uPDuKVfbETEaEhq8Go9TclGf6sYaV8idgT83iXxPFK0g7r5oPSZh6a0fnJSQfFBKnomGFKXVuLdTOAqhSeFyQC3LUnf7kqAML8HeApC2mIovqMCxCD7Uv2BH7bC1iqbta37Ip4plv9GEUSMirU4SDwyPw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://images.pexels.com/photos/2507007/pexels-photo-2507007.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -538,7 +535,7 @@
 }
 .small-line {
   position: absolute;
-  width: 9.4vw;
+  width: 12.58vw;
   height: 0px;
   left: 16.3vw;
   top: 521.6vh;
@@ -635,7 +632,7 @@
 }
 .gallery-slide {
   height: 86.4vh;
-  width: 121.8vw;
+  width: 243.6vw;
   margin-top: 5.4vh;
 }
 .gallery-title {
@@ -708,7 +705,7 @@
   position: absolute;
   width: 20.8vw;
   height: 54.1vh;
-  top: 26.4vh;
+  top: 12.4vh;
   left: -10.4vw;
   background-image: url("https://images.pexels.com/photos/3771811/pexels-photo-3771811.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
@@ -719,7 +716,7 @@
   position: absolute;
   width: 20.8vw;
   height: 54.1vh;
-  top: 43vh;
+  top: 27vh;
   left: 11.9vw;
   background-image: url("https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
@@ -730,9 +727,8 @@
   position: absolute;
   width: 31.25vw;
   height: 86.4vh;
-  top: 23vh;
   left: 34.2vw;
-  background-image: url("https://s3-alpha-sig.figma.com/img/c750/d943/53978cae45b061585b2e53e00cc4255a?Expires=1627257600&Signature=C3A1FtnQN2UXBIW6UCRjeh-cCY3F5UuJWeANVCr1NHJlu8efQy1M6t6qigIyOIVV6WP-y~Utfa98o6r3IamSKYxJh84NXve2EKWtES2uWXgvweqwqvlTN7DEAEy6pLCGd-Ay3Zh93fByGnh69HC7SYf7TnLWoA1~75lvoJ5i2zLeOvJ0~yblOpX3yR6eSTLw4LZdvC6CvkE6CcJVBRaruuVmjzUYqFMalCPiqr965kgGZNy-pZP-HtUuB-0aQV2fAGGHX~N4FpYfqSIlhqK~MEY~ZUsh~vi2FVLSXdt335tBLsSmx6qwqkpNrL7LLibBm0NhmybSEaLpGD3MLjBs4w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-image: url("https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -741,7 +737,7 @@
   position: absolute;
   width: 22vw;
   height: 46.3vh;
-  top: 33.8vh;
+  top: 10vh;
   left: 66.9vw;
   border-radius: 0px 0px 350px 350px;
   background-image: url("https://images.unsplash.com/photo-1458576627435-430ad58ead3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVsJTIwcmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
@@ -753,9 +749,64 @@
   position: absolute;
   width: 20.8vw;
   height: 66.5vh;
-  top: 43vh;
+  top: 5vh;
   left: 90.5vw;
   background-image: url("https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery6 {
+  position: absolute;
+  width: 20.8vw;
+  height: 54.1vh;
+  top: 26.4vh;
+  left: 112.9vw;
+  background-image: url("https://images.pexels.com/photos/2555240/pexels-photo-2555240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery7 {
+  position: absolute;
+  width: 20.8vw;
+  height: 54.1vh;
+  top: 10vh;
+  left: 135.3vw;
+  background-image: url("https://images.pexels.com/photos/7245423/pexels-photo-7245423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery8 {
+  position: absolute;
+  width: 31.25vw;
+  height: 86.4vh;
+  left: 157.7vw;
+  background-image: url("https://images.pexels.com/photos/5371555/pexels-photo-5371555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery9 {
+  position: absolute;
+  width: 22vw;
+  height: 46.3vh;
+  top: 10vh;
+  left: 190.55vw;
+  border-radius: 0px 0px 350px 350px;
+  background-image: url("https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery10 {
+  position: absolute;
+  width: 20.8vw;
+  height: 66.5vh;
+  top: 5vh;
+  left: 214.15vw;
+  background-image: url("https://images.pexels.com/photos/8775178/pexels-photo-8775178.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -790,7 +841,7 @@
   height: 54.68vh;
   left: 8.4vw;
   top: 824.9vh;
-  background: url("https://s3-alpha-sig.figma.com/img/5766/15db/03545a49764518dce8e0075edabfdfd2?Expires=1627257600&Signature=EK-HIfxn7eDaEm9dQdY1sIGICQlBZMpdEo6fukqzVb123O3Enu94vyIxMikIkYP6VbzM32LwgJH3zpZo9eD8AKFg7d2KMCfMeuzJizrFFKxdArETabnV9ArnN8Kk2dE-F7Lu0pSUSmRZdEO2pfAAt4kHFvTgRtU-iHbG1Iq4jEUl-0XSXps4JfUPtnnRH2SVPwfJhusBFyI1bRRd8Urc~Nlcj0724kIbEy8zB-ejxgRbIlaglhw-~hYE2bhkiWi6NGOWQMcmwCjgAdSfMLms3ndx0viWw7Fty2G4YVYTTxPRpRrFEVbI7pEOO2QzZPXg7Ean~YB~BgpYOTH3PbSnWQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://m01.tury.ru/hotel/76/762168/5337677_1600.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -801,7 +852,7 @@
   height: 30.8vh;
   left: 29.5vw;
   top: 824.9vh;
-  background: url("https://s3-alpha-sig.figma.com/img/b573/6e00/5688216862575d9dc84c3c9e931b93fe?Expires=1627257600&Signature=NINcw~Ar-iZWbrL8yuLHM0OQ0Y6Q6VDqVqs8xCrDF9xckTLJxs5op7C1MW~fypjhlkFpVAvKvYZIxuwRFjCbyV0a9V9A1y5Z8QOL8F0GlfXZnzx75N2Jsc3rjXht6Yuhda2FOwhs1RtrUZg2W0ehgA4tz9oXpeCDVEdKh5oblQp2tmd8RYn4sCMNzfLFnbIXghXwHyOmJEkFzzJ6CazqxlTLpB-bXFlfcbNkdfoKNAUVjnoKkHs~Nd0MlXtKXqc7QiqQzQTt554LYgWi51coZft0sVJrWkypBBXs0i~VZibScrIYg9FnvlA40Zl-spT7eb20huo-c-EZ1pxu7nefTw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://images.pexels.com/photos/250591/pexels-photo-250591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -812,7 +863,7 @@
   height: 54.6vh;
   left: 50.6vw;
   top: 824.9vh;
-  background: url("https://s3-alpha-sig.figma.com/img/d027/2137/cf96258ddec578175bc49d64713a84a2?Expires=1627257600&Signature=OVgN1lpp5PrVpdSAXXj~99EBujvX4tM9x-9ZjMAYsiLYfrvFQEJz0PCrH8yRWWxYcTbCSbLYOrQ5oSdg8JKf-jh-U4iFztppqsJHSx~gu9mNaK4cT5shtB6FKHqYLybqzOuNUaGg5Yhf5anU0-rVjgeI~paHP6XAhM3huhciwUb41H5GHK5opvDBSmp6Aq8iSHTPh~X6iBr1rrFoO9fOY~bWGnHovucBlVfLGeZfjYYSBJxSm9Bhv6lLHsHObswpDvhJZTfBWKZCVMAWl-VYHJ5o7IE6NCgGN3kZF8plsraPI-JNcgKV~Vb8TJAav79aACj5-9O1OO-W3H0zFJDi8Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://hotelfauchonkyoto.com/img/top/main_sp_04.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -823,7 +874,7 @@
   height: 39.08vh;
   left: 71.7vw;
   top: 824.9vh;
-  background: url("https://s3-alpha-sig.figma.com/img/2ea1/cf14/baf2e83cd7dfd4a8b68be3f022601a3f?Expires=1627257600&Signature=Ilfbs~SxoJfE~JPeJ1R0dI1WQQ6N11ayLpFW~~jPRW1NFScT5X9vvKT5jjWNAJeRqVez-efYWFh43yyqRTisZaySpQHwsCZTM6E~boq5hhGX2Wop8vE9sWgtTx9ek2NTHz4Vg1ePGd222PtLN3T0MdAvZJULIzONBnd9~mM8sp0OOfc32iz-xegEYjNTsitUPygd9KjlsuOBKXNFSZ-KYVfd6VmsmfTVTZ6FI~WZes8oGK0uOs4GvS9f0FQWeagfgrI~v-DlB2VoOuZp6H-ZN1Xd8zzJbokmWK3lRwabY4LsiyIaBSKWO7ux~AF28SBdADE1NAupEPCs0QRMaj7pBQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("https://www.hilton.com/im/en/ATLTEHH/15508991/atlte-exterior-01.jpg?impolicy=crop&cw=5000&ch=2799&gravity=NorthWest&xposition=0&yposition=267&rw=768&rh=430");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1078,11 +1129,10 @@
   width: 46.8vw;
   height: 77.9vh;
   top: 9.1vh;
-  background: url("https://s3-alpha-sig.figma.com/img/d2a4/d388/7d847194424ad6200a00d6c201a61c44?Expires=1627257600&Signature=NHbrqk7ZP1RXqoW1nqQ68hh0H3JeucvBPpbaBC0N-Y-OmNofWAmaJ4kal268dovvxM0Agmk9Ofn1meHtXNTPAZeeiqyjFNEYtIU3C0I~y~mnlw3rPexEDOiQPW5aSH1Zttmxs4yiKbD-WmCH1MERMA1BOengK8wSxyhCC94szX1jbOTxPa7Xlv9aU~KvyhAJBobquO3~7EPM3cuAOJg078Ak5rAF61W3EM3wQpoSAvOe9vo-vnvmHwGY3pXmA6ItochCrg1dP~-Ay5IEbKm836LtLB6jRK3EaGhBRAoXeYcqJG7DBKd29oWekWCd97M22FCf8D-oRpdUP-SVlzMYhg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("http://cdn.home-designing.com/wp-content/uploads/2014/04/31-Outdoor-kitchen-diner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .contact-img:hover {
   z-index: 1;
@@ -1133,7 +1183,7 @@
 }
 .footer {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: 64.6vh;
   top: 1030.4vh;
   box-sizing: border-box;
@@ -1193,10 +1243,10 @@
   height: 32.4vh;
   left: 38.9vw;
   top: 2.1vh;
-  background-image: url("https://s3-alpha-sig.figma.com/img/7e6e/7ac2/6694b1d2b05b683e9e4f2d2272b0e0e6?Expires=1627257600&Signature=dLM2MxNRsq4varQR3VRU2SrrUt1kUNuHXfG1MEW7W~pk3bb0NUA2ipkNQawiXkJjdVR2JrUeHcgssymXxm5H7nonom6chzuGGEaTz7eeQKUvY1988c7s9HAjq0yaN-VBZB-0mhzRIKxpEhZ238JXtTs6t4REtVNE7eoMcn3sGJTeyXetnTDq8lyazc9BkVppAzfjxm2eKhutyGiwAYXKPCvaN0H2s74J6aQkx5jRcTQe0Yf~Uc4vBWISRJGkLQRD34jxiqyipu1b7~5fSl1Zmw0PagGax7eKJu3H1ySL27nlolnU5iKZxPfD4qZvYPl6umdB1yx5fno8T~OQ8gmZnQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-image: url("http://localhost:3000/phoenix.png");
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -1245,23 +1295,22 @@
 }
 .tripadviser-logo {
   position: absolute;
-  width: 9.4vw;
-  height: 14.7vh;
-  left: 45.1vw;
+  width: 7.4vw;
+  height: 12.7vh;
+  left: 46.5vw;
   top: 49.6vh;
-  background: url("https://s3-alpha-sig.figma.com/img/2b4c/b354/2c0a4274505bc405899ea14c32c7da0b?Expires=1627257600&Signature=NANC59gSngtYmENktmmY-ocWs-D4Vl7cjN-j9614si06fubygpdeGFUyltWnqdQPAMcPI8dHN3cearZBbb~e8aatusUuHHjnSSGnOA-qcMY7J8kxknbipd-8gC5It4PMcGQPA4pR-71anhAR76fjbsCUpnz-icjDVJZMZcD~stLYM7600yqg1E2nE4q-a7W8HeUD7LavXiBmRfzSog-Qar9mHtTTbR4Szbxp~eB5eunNwDSJnGysYdq7ED~UVJ4eBal0oR59hY-fpBssCXedgD4vUUhYmk2VtVf6g1eNw9wyf-qKxrou0YFI1cDtJ8Z~vCLwdqIBxcfzNV9~icBMeg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("http://localhost:3000/pnga.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .credit-cards {
   position: absolute;
-  width: 8.3vw;
+  width: 9.3vw;
   height: 3.1vh;
   left: 64.6vw;
   top: 59.2vh;
-  background-color: blueviolet;
-  background: url("https://s3-alpha-sig.figma.com/img/7735/b5bc/e09efc8ed9acc543bf0dae60b92d2b6f?Expires=1627257600&Signature=SVVCumAqWecTdNlHp9jj1cPjePVWJPyxh28071kfoIlxkAm5UfJegvVYz51QzM5f979L3WArBfRY~gbuZDf9M0V0W3pLK03lk9nuhinN8A4SxCWV3ggw4aST6FZLcklMBZ00xshMx0v~KrJEQzRyV6F-Nr0dQ62sKCSNBpDuhWfizI2TItAlOawW8sFXTcDXlCyrGwKO02cDLEdXSVBvadoerj3EmecXVFlBP3KI9W~ebbwxD9qYAMB0LI18g7RDJlDKkwo1MOzrALCBwBEc4orHg6322QYqxW3cwECZVcjHbxZQPlxS5JQEvPNS0t8Zc18M0X4P-vrIVl6ciH-G9w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background: url("http://localhost:3000/clipart.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;

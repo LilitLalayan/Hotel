@@ -1,23 +1,36 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../App.css";
 import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 import SocialMedia from "./SocialMedia";
 
 function Gallery() {
   const [currPage, setCurrPage] = useState(1);
-  const imgCount = 15;
+  const [count, setCount] = useState(0);
+  const images = useRef(null);
+  const imgCount = 7;
+
+  useEffect(() => {
+    const size = images.current.children[0].clientWidth + 20;
+    images.current.style.transition = "transform 1s ease-in-out";
+    images.current.style.transform = "translateX(" + -size * count + "px)";
+  }, [count, currPage]);
 
   return (
     <>
       <div className="gallery">
         <h1 className="gallery-title">photo gallery</h1>
         <div className="gallery-line" />
-        <div className="gallery-slide">
+        <div ref={images} className="gallery-slide">
           <div className="gallery1" />
           <div className="gallery2" />
           <div className="gallery3" />
           <div className="gallery4" />
           <div className="gallery5" />
+          <div className="gallery6" />
+          <div className="gallery7" />
+          <div className="gallery8" />
+          <div className="gallery9" />
+          <div className="gallery10" />
         </div>
       </div>
       <div className="pages">
@@ -26,6 +39,7 @@ function Gallery() {
           onClick={() => {
             if (currPage === 1) return;
             setCurrPage((prev) => prev - 1);
+            setCount((prev) => prev - 1);
           }}
         />
         <div style={{ width: "1.7vw", height: "3.5vh" }}>
@@ -36,8 +50,12 @@ function Gallery() {
         <KeyboardBackspaceIcon
           className="gal-arrow-right"
           onClick={() => {
-            if (currPage === 15) return;
+            if (currPage === imgCount) {
+              setCurrPage(0);
+              setCount(-1);
+            }
             setCurrPage((prev) => prev + 1);
+            setCount((prev) => prev + 1);
           }}
         />
       </div>
