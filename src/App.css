@@ -34,7 +34,7 @@
   height: 17.95vh;
   left: 43.2vw;
   top: 0.7vh;
-  background: url("http://localhost:3000/phoenix.png");
+  background: url("././images/phoenix.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1267,7 +1267,7 @@
   height: 32.4vh;
   left: 38.9vw;
   top: 2.1vh;
-  background-image: url("http://localhost:3000/phoenix.png");
+  background-image: url("././images/phoenix.png");
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
@@ -1323,7 +1323,7 @@
   height: 12.7vh;
   left: 46.5vw;
   top: 49.6vh;
-  background: url("http://localhost:3000/pnga.png");
+  background: url("././images/pnga.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1334,7 +1334,7 @@
   height: 3.1vh;
   left: 64.6vw;
   top: 59.2vh;
-  background: url("http://localhost:3000/clipart.png");
+  background: url("././images/clipart.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;

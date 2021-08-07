@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import tripadvisor from "./../images/tripadvisor-24.png";
 
 function SocialMedia({ media }) {
   let className = "";
@@ -89,7 +90,7 @@ function SocialMedia({ media }) {
         >
           <img
             alt="tripAdvider logo"
-            src="http://localhost:3000/tripadvisor-24.png"
+            src={tripadvisor}
             style={{ width: "1.3vw", height: "3vh" }}
           />
         </a>

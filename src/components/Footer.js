@@ -1,4 +1,5 @@
 import React from "react";
+import clipart from "./../images/clipart.png";
 
 function Footer() {
   return (
