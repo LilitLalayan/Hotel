@@ -15,6 +15,19 @@
   align-items: flex-end;
   cursor: pointer;
 }
+.Burger:hover {
+  transition: 0.5s ease;
+  transform: rotate(180deg);
+}
+.Burger:hover .burger-medium-line {
+  width: 1.46vw;
+}
+.burger-medium-line {
+  width: 0.94vw;
+  height: 0.25vh;
+  background-color: black;
+}
+
 .header-logo {
   position: absolute;
   width: 11.3vw;
@@ -282,6 +295,15 @@
   background-size: cover;
   background-position: center;
 }
+/* @keyframes slidein {
+  from {
+    top: 239vh;
+  }
+
+  to {
+    top: 229.6vh;
+  }
+} */
 
 .rooms {
   position: absolute;
@@ -345,8 +367,8 @@
 }
 .rooms-img {
   position: absolute;
-  width: 61.5vw;
-  height: 73.39vh;
+  width: 55.5vw;
+  height: 67.39vh;
   left: 36.8vw;
   top: 330.53vh;
   background: url("https://s7d2.scene7.com/is/image/ritzcarlton/RCKUALA_00123?$XlargeViewport100pct$");
@@ -356,6 +378,8 @@
 }
 .rooms-img:hover {
   z-index: 1;
+  transition: 1s ease;
+  transform: scale(1.05);
 }
 .barWelcome {
   position: absolute;

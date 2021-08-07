@@ -58,21 +58,15 @@ function Header() {
             height: "0.25vh",
             backgroundColor: "black",
           }}
-        ></div>
-        <div
-          style={{
-            width: "0.94vw",
-            height: "0.25vh",
-            backgroundColor: "black",
-          }}
-        ></div>
+        />
+        <div className="burger-medium-line" />
         <div
           style={{
             width: "1.46vw",
             height: "0.25vh",
             backgroundColor: "black",
           }}
-        ></div>
+        />
       </div>
     </div>
   );
