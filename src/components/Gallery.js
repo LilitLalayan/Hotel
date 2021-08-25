@@ -1,99 +1,93 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import "../App.css";
-import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
-import SocialMedia from "./SocialMedia";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Carousel } from "react-bootstrap";
 
 function Gallery() {
-  const [currPage, setCurrPage] = useState(1);
-  const [count, setCount] = useState(0);
-  const images = useRef(null);
-  const imgCount = 7;
-
-  useEffect(() => {
-    const size = images.current.children[0].clientWidth + 20;
-    images.current.style.transition = "transform 1s ease-in-out";
-    images.current.style.transform = "translateX(" + -size * count + "px)";
-  }, [count, currPage]);
-
   return (
     <>
-      <div className="gallery">
-        <h1 className="gallery-title">photo gallery</h1>
-        <div className="gallery-line" />
-        <div ref={images} className="gallery-slide">
-          <div className="gallery1" />
-          <div className="gallery2" />
-          <div className="gallery3" />
-          <div className="gallery4" />
-          <div className="gallery5" />
-          <div className="gallery6" />
-          <div className="gallery7" />
-          <div className="gallery8" />
-          <div className="gallery9" />
-          <div className="gallery10" />
-        </div>
-      </div>
-      <div className="pages">
-        <KeyboardBackspaceIcon
-          className="gal-arrow-left"
-          onClick={() => {
-            if (currPage === 1) return;
-            setCurrPage((prev) => prev - 1);
-            setCount((prev) => prev - 1);
-          }}
-        />
-        <div style={{ width: "1.7vw", height: "3.5vh" }}>
-          <span className="current-page">{currPage}</span>
-          <span className="gal-page-slash">/</span>
-          <span className="last-page">{imgCount}</span>
-        </div>
-        <KeyboardBackspaceIcon
-          className="gal-arrow-right"
-          onClick={() => {
-            if (currPage === imgCount) {
-              setCurrPage(0);
-              setCount(-1);
-            }
-            setCurrPage((prev) => prev + 1);
-            setCount((prev) => prev + 1);
-          }}
-        />
-      </div>
-      <SocialMedia media={"gallery"} />
-      <span
-        style={{
-          position: "absolute",
-          width: "3.55vw",
-          height: "6.19vh",
-          left: "92.5vw",
-          top: "757.6vh",
-          background: "#6F4F28",
-          border: "0.5px solid #6F4F28",
-          boxSizing: "border-box",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          verticalAlign: "center",
-          letterSpacing: "0.05em",
-          textTransform: "uppercase",
-          color: "#FFFFFF",
-          fontFamily: "Inter",
-          fontSize: "0.73vw",
-          lineHeight: "150%",
-          cursor: "pointer",
-        }}
-      >
-        <a
-          href="#Booking"
-          style={{
-            textDecoration: "none",
-            color: "#FFFFFF",
-            textAlign: "center",
-          }}
-        >
-          book now
-        </a>
-      </span>
+      <h1 className="gallery-title">photo gallery</h1>
+      <div className="gallery-line" />
+
+      <Carousel className="gallery" controls={false}>
+        <Carousel.Item>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+            }}
+          >
+            <img
+              className="gallery1"
+              src="https://images.pexels.com/photos/3771811/pexels-photo-3771811.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="First slide"
+            />
+            <img
+              className="gallery2"
+              src="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="First slide"
+            />
+            <img
+              className="gallery3"
+              src="https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="First slide"
+            />
+            <img
+              className="gallery4"
+              src="https://images.unsplash.com/photo-1458576627435-430ad58ead3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVsJTIwcmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="First slide"
+            />
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <img
+              className="gallery5"
+              src="https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="First slide"
+            />
+            <img
+              className="gallery6"
+              src="https://images.pexels.com/photos/2555240/pexels-photo-2555240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="First slide"
+            />
+            <img
+              className="gallery7"
+              src="https://images.pexels.com/photos/7245423/pexels-photo-7245423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="First slide"
+            />
+            <img
+              className="gallery8"
+              src="https://images.pexels.com/photos/5371555/pexels-photo-5371555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="First slide"
+            />
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <img
+              className="gallery9"
+              src="https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="First slide"
+            />
+            <img
+              className="gallery10"
+              src="https://images.pexels.com/photos/8775178/pexels-photo-8775178.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              alt="First slide"
+            />
+            <img
+              className="gallery7"
+              src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGhvdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="First slide"
+            />
+            <img
+              className="gallery8"
+              src="https://images.unsplash.com/photo-1531088009183-5ff5b7c95f91?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="First slide"
+            />
+          </div>
+        </Carousel.Item>
+      </Carousel>
     </>
   );
 }

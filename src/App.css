@@ -1,11 +1,19 @@
 .App {
   height: 1098.4vh;
   width: 100%;
+  font-size: 16px;
 }
+.drop {
+  width: 50px;
+  border: 0px;
+  color: #6f4f28;
+  background-color: #fdf9e5;
+}
+
 .Burger {
   box-sizing: border-box;
   width: 1.46vw;
-  height: 1.78vh;
+  height: 12px;
   position: absolute;
   left: 90.1vw;
   top: 9.84vh;
@@ -24,7 +32,7 @@
 }
 .burger-medium-line {
   width: 0.94vw;
-  height: 0.25vh;
+  height: 1px;
   background-color: black;
 }
 
@@ -140,7 +148,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 2vw;
+  font-size: 1.7em;
   line-height: 150%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -149,19 +157,23 @@
 
 .konyak {
   position: absolute;
-  width: 38.88vw;
   height: 29.9vh;
   top: 51.3vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.8vw;
+  font-size: 4em;
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
 }
-
+.date {
+  width: 15vw;
+  height: 5.4vh;
+  margin-top: 2.38vh;
+  border: 0.5px solid #6f4f28;
+}
 .arrival {
   width: 18.83vw;
   height: 12.98vh;
@@ -182,7 +194,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
-  font-size: 0.73vw;
+  font-size: 0.6em;
   line-height: 150%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -209,7 +221,7 @@
   margin-top: 2.38vh;
 }
 
-.btn {
+.bttn {
   width: 14.94vw;
   height: 5.4vh;
   background: #6f4f28;
@@ -220,7 +232,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: "0.83vw";
+  font-size: 1em;
   line-height: 150%;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -240,14 +252,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 1;
+  z-index: -1;
 }
 
 .about-title {
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 2, 92vw;
+  font-size: 2.5em;
   line-height: 9.43vh;
   text-transform: uppercase;
   color: #201b13;
@@ -263,7 +275,7 @@
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.14vw;
+  font-size: 1em;
   line-height: 150%;
   text-align: center;
   color: #201b13;
@@ -274,7 +286,7 @@
   position: absolute;
   width: 35.9vw;
   height: 108.5vh;
-  left: 46.7vw;
+  left: 48.7vw;
   top: 157.86vh;
   background: url("https://images.pexels.com/photos/6434631/pexels-photo-6434631.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
@@ -283,27 +295,20 @@
 }
 .about-img1:hover {
   z-index: 1;
+  transition: 1s ease;
+  transform: scale(1.05);
 }
 .about-img2 {
   position: absolute;
   width: 20.58vw;
   height: 42.2vh;
   left: 71vw;
-  top: 229.66vh;
+  top: 239.66vh;
   background: url("https://images.pexels.com/photos/6466304/pexels-photo-6466304.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   border-radius: 0px 0px 350px 350px;
   background-size: cover;
   background-position: center;
 }
-/* @keyframes slidein {
-  from {
-    top: 239vh;
-  }
-
-  to {
-    top: 229.6vh;
-  }
-} */
 
 .rooms {
   position: absolute;
@@ -324,16 +329,17 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.8vw;
+  font-size: 2.5em;
   line-height: 9.04vh;
   text-transform: uppercase;
   color: #201b13;
 }
 .rooms-text {
+  margin-top: 3vh;
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.25vw;
+  font-size: 1em;
   line-height: 170%;
   text-align: center;
   color: #201b13;
@@ -344,7 +350,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.79vw;
+  font-size: 1.8em;
   color: #201b13;
   cursor: pointer;
   display: flex;
@@ -364,6 +370,7 @@
   display: flex;
   align-items: center;
   height: 7.82vh;
+  width: 30vw;
 }
 .rooms-img {
   position: absolute;
@@ -383,27 +390,25 @@
 }
 .barWelcome {
   position: absolute;
-  width: 15.2vw;
   height: 9.3vh;
   left: 8.3vw;
   top: 419.3vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.9vw;
+  font-size: 2.5em;
   line-height: 9.35vh;
   color: #201b13;
 }
 .barTitle {
   position: absolute;
-  width: 34vw;
   height: 9.3vh;
   left: 8.3vw;
   top: 428.7vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.9vw;
+  font-size: 2.5em;
   line-height: 9.35vh;
   text-transform: uppercase;
   color: #201b13;
@@ -526,7 +531,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.8vw;
+  font-size: 0.8em;
   line-height: 170%;
   color: #6f4f28;
 }
@@ -539,7 +544,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.8vw;
+  font-size: 0.8em;
   line-height: 170%;
   color: #6f4f28;
 }
@@ -552,7 +557,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.8vw;
+  font-size: 0.8em;
   line-height: 170%;
   color: #6f4f28;
   opacity: 0.2;
@@ -584,7 +589,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.5vw;
+  font-size: 2.5em;
   line-height: 8vh;
   text-transform: uppercase;
   color: #201b13;
@@ -592,16 +597,17 @@
 }
 .pool-line {
   width: 4.1vw;
-  height: 0.22vh;
+  height: 1.5px;
   background: #6f4f28;
 }
 .pool-text {
+  margin-top: 3vh;
   width: 32vw;
   height: 11vh;
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.25vw;
+  font-size: 1em;
   line-height: 150%;
   text-align: center;
   color: #201b13;
@@ -613,7 +619,7 @@
   mix-blend-mode: normal;
   border: 0.5px solid #6f4f28;
   font-family: Inter;
-  font-size: 1vw;
+  font-size: 1em;
   line-height: 150%;
   display: flex;
   align-items: center;
@@ -635,6 +641,8 @@
 }
 .poolImg1:hover {
   z-index: 1;
+  transition: 1s ease;
+  transform: scale(1.05);
 }
 .poolImg2 {
   position: absolute;
@@ -651,118 +659,61 @@
   position: absolute;
   width: 100%;
   height: 112.35vh;
-  top: 672.9vh;
+  top: 696.9vh;
   overflow: hidden;
 }
-.gallery-slide {
-  height: 86.4vh;
-  width: 243.6vw;
-  margin-top: 5.4vh;
-}
+
 .gallery-title {
-  width: 24.4vw;
+  position: absolute;
+  top: 675vh;
   height: 9.3vh;
-  margin-left: 8.3vw;
+  left: 8.3vw;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.9vw;
+  font-size: 2.5em;
   line-height: 9.3vh;
   text-transform: uppercase;
   color: #201b13;
 }
 .gallery-line {
+  position: absolute;
+  top: 688vh;
   background-color: #6f4f28;
-  margin-left: 8.3vw;
+  left: 8.3vw;
   width: 4.1vw;
   height: 1.5px;
-  margin-top: 2.9vh;
 }
-.pages {
-  position: absolute;
-  top: 785.7vh;
-  display: flex;
-  justify-content: space-between;
-  width: 9.3vw;
-  height: 3.5vh;
-  margin-left: 45.8vw;
-}
-.gal-arrow-left {
-  width: 1.8vw;
-  height: 0px;
-  color: #6f4f28;
-  cursor: pointer;
-}
-.gal-arrow-right {
-  width: 1.8vw;
-  height: 0px;
-  color: #6f4f28;
-  cursor: pointer;
-  transform: rotate(180deg);
-}
-.current-page {
-  font-family: Ogg;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.8vw;
-  line-height: 170%;
-  color: #6f4f28;
-}
-.gal-page-slash {
-  font-family: Ogg;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.8vw;
-  line-height: 170%;
-  color: #6f4f28;
-}
-.last-page {
-  font-family: Ogg;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.8vw;
-  line-height: 170%;
-  color: #6f4f28;
-  opacity: 0.2;
-}
+
 .gallery1 {
-  position: absolute;
-  width: 20.8vw;
+  width: 23.8vw;
   height: 54.1vh;
-  top: 12.4vh;
-  left: -10.4vw;
   background-image: url("https://images.pexels.com/photos/3771811/pexels-photo-3771811.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .gallery2 {
-  position: absolute;
-  width: 20.8vw;
+  margin-top: 16vh;
+  width: 23.8vw;
   height: 54.1vh;
-  top: 27vh;
-  left: 11.9vw;
   background-image: url("https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .gallery3 {
-  position: absolute;
-  width: 31.25vw;
-  height: 86.4vh;
-  left: 34.2vw;
+  width: 23.8vw;
+  height: 64.1vh;
   background-image: url("https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .gallery4 {
-  position: absolute;
-  width: 22vw;
+  margin-top: 10vh;
+  width: 23.8vw;
   height: 46.3vh;
-  top: 10vh;
-  left: 66.9vw;
   border-radius: 0px 0px 350px 350px;
   background-image: url("https://images.unsplash.com/photo-1458576627435-430ad58ead3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVsJTIwcmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-repeat: no-repeat;
@@ -770,54 +721,43 @@
   background-position: center;
 }
 .gallery5 {
-  position: absolute;
-  width: 20.8vw;
+  width: 23.8vw;
   height: 66.5vh;
-  top: 5vh;
-  left: 90.5vw;
   background-image: url("https://images.pexels.com/photos/302902/pexels-photo-302902.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .gallery6 {
-  position: absolute;
-  width: 20.8vw;
-  height: 54.1vh;
-  top: 26.4vh;
-  left: 112.9vw;
+  margin-top: 10vh;
+  width: 23.8vw;
+  height: 46.3vh;
+  border-radius: 0px 0px 350px 350px;
   background-image: url("https://images.pexels.com/photos/2555240/pexels-photo-2555240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .gallery7 {
-  position: absolute;
-  width: 20.8vw;
-  height: 54.1vh;
-  top: 10vh;
-  left: 135.3vw;
+  margin-top: 14vh;
+  width: 23.8vw;
+  height: 66.5vh;
   background-image: url("https://images.pexels.com/photos/7245423/pexels-photo-7245423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .gallery8 {
-  position: absolute;
-  width: 31.25vw;
-  height: 86.4vh;
-  left: 157.7vw;
+  width: 23.8vw;
+  height: 64vh;
   background-image: url("https://images.pexels.com/photos/5371555/pexels-photo-5371555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .gallery9 {
-  position: absolute;
-  width: 22vw;
+  width: 23.8vw;
   height: 46.3vh;
-  top: 10vh;
-  left: 190.55vw;
   border-radius: 0px 0px 350px 350px;
   background-image: url("https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
@@ -825,26 +765,24 @@
   background-position: center;
 }
 .gallery10 {
-  position: absolute;
-  width: 20.8vw;
+  margin-top: 14vh;
+  width: 23.8vw;
   height: 66.5vh;
-  top: 5vh;
-  left: 214.15vw;
   background-image: url("https://images.pexels.com/photos/8775178/pexels-photo-8775178.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
 .news-title {
   position: absolute;
-  width: 20.7vw;
   height: 9.34vh;
   left: 8.4vw;
   top: 807vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.9vw;
+  font-size: 2.5em;
   line-height: 9.34vh;
   text-align: center;
   text-transform: uppercase;
@@ -903,6 +841,7 @@
   background-size: cover;
   background-position: center;
 }
+
 .news1-date {
   position: absolute;
   width: 5.05vw;
@@ -912,37 +851,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 300;
-  font-size: 0.8vw;
-  line-height: 170%;
-  text-transform: uppercase;
-  color: #201b13;
-  opacity: 0.5;
-}
-.news2-date {
-  position: absolute;
-  width: 5.05vw;
-  height: 2.91vh;
-  left: 8.4vw;
-  top: 881.76vh;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 0.8vw;
-  line-height: 170%;
-  text-transform: uppercase;
-  color: #201b13;
-  opacity: 0.5;
-}
-.news1-date {
-  position: absolute;
-  width: 5.05vw;
-  height: 2.91vh;
-  left: 8.4vw;
-  top: 881.76vh;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 0.8vw;
+  font-size: 0.7em;
   line-height: 170%;
   text-transform: uppercase;
   color: #201b13;
@@ -957,7 +866,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 300;
-  font-size: 0.8vw;
+  font-size: 0.7em;
   line-height: 170%;
   text-transform: uppercase;
   color: #201b13;
@@ -972,7 +881,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 300;
-  font-size: 0.8vw;
+  font-size: 0.7em;
   line-height: 170%;
   text-transform: uppercase;
   color: #201b13;
@@ -987,7 +896,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 300;
-  font-size: 0.8vw;
+  font-size: 0.7em;
   line-height: 170%;
   text-transform: uppercase;
   color: #201b13;
@@ -1002,7 +911,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.25vw;
+  font-size: 1.2em;
   line-height: 3.9vh;
   color: #201b13;
 }
@@ -1015,7 +924,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.25vw;
+  font-size: 1.2em;
   line-height: 3.9vh;
   color: #201b13;
 }
@@ -1028,7 +937,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.25vw;
+  font-size: 1.2em;
   line-height: 3.9vh;
   color: #201b13;
 }
@@ -1041,106 +950,62 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.25vw;
+  font-size: 1.2em;
   line-height: 3.9vh;
   color: #201b13;
 }
-.readMore1 {
+.section1 {
   position: absolute;
-  width: 4.2vw;
+  width: 9.2vw;
   height: 2.9vh;
   left: 8.4vw;
   top: 892.9vh;
+  display: flex;
+  align-items: center;
+}
+.readMore {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.8vw;
-  line-height: 170%;
+  font-size: 0.7em;
   color: #6f4f28;
   cursor: pointer;
 }
-.arrow1 {
-  position: absolute;
-  width: 2.6vw;
-  height: 0px;
-  left: 13.1vw;
-  top: 892.9vh;
+.arrow {
+  margin-left: 5px;
   color: #6f4f28;
   transform: rotate(180deg);
   cursor: pointer;
 }
-.readMore2 {
+.section2 {
   position: absolute;
-  width: 4.2vw;
+  width: 9.2vw;
   height: 2.9vh;
   left: 29.5vw;
   top: 869vh;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.8vw;
-  line-height: 170%;
-  color: #6f4f28;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
-.arrow2 {
+.section3 {
   position: absolute;
-  width: 2.6vw;
-  height: 0px;
-  left: 34.2vw;
-  top: 869vh;
-  color: #6f4f28;
-  transform: rotate(180deg);
-  cursor: pointer;
-}
-.readMore3 {
-  position: absolute;
-  width: 4.2vw;
+  width: 9.2vw;
   height: 2.9vh;
   left: 50.6vw;
   top: 896.9vh;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.8vw;
-  line-height: 170%;
-  color: #6f4f28;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
-.arrow3 {
+
+.section4 {
   position: absolute;
-  width: 2.6vw;
-  height: 0px;
-  left: 55.3vw;
-  top: 896.9vh;
-  color: #6f4f28;
-  transform: rotate(180deg);
-  cursor: pointer;
-}
-.readMore4 {
-  position: absolute;
-  width: 4.2vw;
+  width: 9.2vw;
   height: 2.9vh;
   left: 71.7vw;
   top: 881.5vh;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.8vw;
-  line-height: 170%;
-  color: #6f4f28;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
-.arrow4 {
-  position: absolute;
-  width: 2.6vw;
-  height: 0px;
-  left: 76.5vw;
-  top: 881.5vh;
-  color: #6f4f28;
-  transform: rotate(180deg);
-  cursor: pointer;
-}
+
 .contact {
   position: absolute;
   width: 83vw;
@@ -1160,6 +1025,8 @@
 }
 .contact-img:hover {
   z-index: 1;
+  transition: 1s ease;
+  transform: scale(1.05);
 }
 .contact-box {
   position: absolute;
@@ -1171,13 +1038,13 @@
   backdrop-filter: blur(34px);
 }
 .contact-box-text {
-  width: 24vw;
+  width: 30vw;
   height: 36.3vh;
   margin: 4.3vh auto 6.4vh;
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.9vw;
+  font-size: 2.5em;
   line-height: 150%;
   text-transform: uppercase;
   color: #201b13;
@@ -1195,7 +1062,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.8vw;
+  font-size: 0.8em;
   line-height: 150%;
   text-align: center;
   letter-spacing: 0.05em;
@@ -1228,7 +1095,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.1vw;
+  font-size: 1em;
   color: #201b13;
   opacity: 0.6;
   cursor: pointer;
@@ -1252,7 +1119,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.1vw;
+  font-size: 1em;
   color: #201b13;
   opacity: 0.6;
   cursor: pointer;
@@ -1279,7 +1146,7 @@
   font-family: Ogg;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.25vw;
+  font-size: 1.2em;
   line-height: 3.94vh;
   text-transform: uppercase;
   color: #201b13;
@@ -1299,7 +1166,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.9vw;
+  font-size: 0.73em;
   line-height: 2.2vh;
   color: #201b13;
   text-decoration: none;
@@ -1313,7 +1180,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.7vw;
+  font-size: 0.6em;
   line-height: 1.6vh;
   color: #201b13;
 }
@@ -1348,7 +1215,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.7vw;
+  font-size: 0.7em;
   line-height: 1.6vh;
   color: #201b13;
 }
@@ -1358,4 +1225,14 @@
 .design-weflex {
   margin-left: 0.2vw;
   opacity: 1;
+}
+@media screen and (max-width: 1100px) {
+  .App {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .App {
+    font-size: 12px;
+  }
 }

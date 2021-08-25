@@ -40,7 +40,7 @@ function Contact() {
           textTransform: "uppercase",
           color: "#FFFFFF",
           fontFamily: "Inter",
-          fontSize: "0.73vw",
+          fontSize: "0.7em",
           lineHeight: "150%",
           cursor: "pointer",
           zIndex: 1,

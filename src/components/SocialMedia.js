@@ -35,7 +35,7 @@ function SocialMedia({ media }) {
           alignItems: "center",
           color: "#FAF6F2",
           cursor: "pointer",
-          fontSize: "1.3vw",
+          fontSize: "1.3em",
         }}
       >
         <a
@@ -54,7 +54,7 @@ function SocialMedia({ media }) {
           borderRadius: "50%",
           display: "flex",
           justifyContent: "center",
-          alignItems: "center",
+          alignContent: "center",
           color: "#FAF6F2",
           cursor: "pointer",
         }}
@@ -78,7 +78,7 @@ function SocialMedia({ media }) {
           borderRadius: "50%",
           display: "flex",
           justifyContent: "center",
-          alignItems: "center",
+          alignContent: "center",
           color: "#FAF6F2",
           cursor: "pointer",
         }}

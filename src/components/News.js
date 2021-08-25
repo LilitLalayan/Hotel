@@ -11,23 +11,31 @@ function News() {
       <div className="news1" />
       <span className="news1-date">Sep 13, 2019</span>
       <span className="news1-title">Borjomi Palace</span>
-      <span className="readMore1">Read more</span>
-      <KeyboardBackspaceIcon className="arrow1" />
+      <section className="section1">
+        <span className="readMore">Read more</span>
+        <KeyboardBackspaceIcon className="arrow" />
+      </section>
       <div className="news2" />
       <span className="news2-date">Sep 13, 2019</span>
       <span className="news2-title">Spring Travel in Full Swing</span>
-      <span className="readMore2">Read more</span>
-      <KeyboardBackspaceIcon className="arrow2" />
+      <section className="section2">
+        <span className="readMore">Read more</span>
+        <KeyboardBackspaceIcon className="arrow" />
+      </section>
       <div className="news3" />
       <span className="news3-date">Sep 13, 2019</span>
       <span className="news3-title">FAUCHON L’Hotel Kyoto Opens In Japan</span>
-      <span className="readMore3">Read more</span>
-      <KeyboardBackspaceIcon className="arrow3" />
+      <section className="section3">
+        <span className="readMore">Read more</span>
+        <KeyboardBackspaceIcon className="arrow" />
+      </section>
       <div className="news4" />
       <span className="news4-date">Sep 13, 2019</span>
       <span className="news4-title">Hilton Alpharetta Atlanta Hotel Opens</span>
-      <span className="readMore4">Read more</span>
-      <KeyboardBackspaceIcon className="arrow4" />
+      <section className="section4">
+        <span className="readMore">Read more</span>
+        <KeyboardBackspaceIcon className="arrow" />
+      </section>
       <SocialMedia media={"news"} />
       <span
         style={{
@@ -47,7 +55,7 @@ function News() {
           textTransform: "uppercase",
           color: "#FFFFFF",
           fontFamily: "Inter",
-          fontSize: "0.73vw",
+          fontSize: "0.7em",
           lineHeight: "150%",
           cursor: "pointer",
         }}

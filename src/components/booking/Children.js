@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../App.css";
 
 function Children({ childCount, setChildCount }) {
@@ -26,7 +26,7 @@ function Children({ childCount, setChildCount }) {
       >
         <span
           style={{
-            fontSize: "0.83vw",
+            fontSize: "0.83em",
             color: "#201B13",
             cursor: "pointer",
           }}
@@ -36,7 +36,7 @@ function Children({ childCount, setChildCount }) {
         </span>
         <span
           style={{
-            fontSize: "0.83vw",
+            fontSize: "0.83em",
             fontFamily: "Ogg",
             color: "#201B13",
           }}
@@ -45,7 +45,7 @@ function Children({ childCount, setChildCount }) {
         </span>
         <span
           style={{
-            fontSize: "0.83vw",
+            fontSize: "0.83em",
             color: "#201B13",
             cursor: "pointer",
           }}

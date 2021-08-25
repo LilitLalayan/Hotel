@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import Flag from "./Flag";
 
 function Header() {
   return (
@@ -12,7 +13,7 @@ function Header() {
         width: "100%",
       }}
     >
-      <span
+      <section
         style={{
           top: "8.82vh",
           left: "8.43vw",
@@ -21,15 +22,15 @@ function Header() {
           height: "3.34vh",
         }}
       >
-        flag
-      </span>
+        <Flag />
+      </section>
       <div className="header-logo" />
       <span
         style={{
           top: "8.88vh",
           left: "79.83vw",
           position: "absolute",
-          fontSize: "0.83vw",
+          fontSize: "0.6em",
           cursor: "pointer",
           fontFamily: "Inter",
           lineHeight: "150%",
@@ -42,7 +43,7 @@ function Header() {
           position: "absolute",
           top: "8.88vh",
           left: "81.86vw",
-          fontSize: "0.83vw",
+          fontSize: "0.6em",
           cursor: "pointer",
           color: "grey",
           fontFamily: "Inter",
@@ -55,7 +56,7 @@ function Header() {
         <div
           style={{
             width: "1.46vw",
-            height: "0.25vh",
+            height: "1px",
             backgroundColor: "black",
           }}
         />
@@ -63,7 +64,7 @@ function Header() {
         <div
           style={{
             width: "1.46vw",
-            height: "0.25vh",
+            height: "1px",
             backgroundColor: "black",
           }}
         />

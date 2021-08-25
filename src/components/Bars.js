@@ -17,7 +17,7 @@ function Bars() {
     images.current.style.transition = "transform 1s ease-in-out";
     images.current.style.transform = "translateX(" + -size * count + "px)";
     line.current.style.left = `${lineMargin}vw`;
-  }, [count, imgCount]);
+  }, [count, imgCount, lineMargin]);
 
   return (
     <div>
@@ -88,7 +88,7 @@ function Bars() {
           textTransform: "uppercase",
           color: "#FFFFFF",
           fontFamily: "Inter",
-          fontSize: "0.73vw",
+          fontSize: "0.7em",
           lineHeight: "150%",
           cursor: "pointer",
         }}

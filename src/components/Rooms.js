@@ -41,10 +41,10 @@ function Rooms() {
               onMouseOver={(e) => {
                 arrow1.current.style.display = "block";
                 imgRef.current.style.backgroundImage = `url("https://www.hno.co.jp/oversea/accommodation/room/standard-twin-001a.jpg")`;
+                arrow2.current.style.display = "none";
+                arrow3.current.style.display = "none";
                 arrow4.current.style.display = "none";
-              }}
-              onMouseOut={(e) => {
-                arrow1.current.style.display = "none";
+                arrow5.current.style.display = "none";
               }}
             >
               Standard Twin
@@ -60,9 +60,9 @@ function Rooms() {
                 arrow2.current.style.display = "block";
                 imgRef.current.style.backgroundImage = `url("https://www.pavillon-monceau.com/files/hotel/pavillon-monceau/chambres/chambre_standard_.jpg")`;
                 arrow4.current.style.display = "none";
-              }}
-              onMouseOut={(e) => {
-                arrow2.current.style.display = "none";
+                arrow3.current.style.display = "none";
+                arrow1.current.style.display = "none";
+                arrow5.current.style.display = "none";
               }}
             >
               Standard Double
@@ -78,9 +78,9 @@ function Rooms() {
                 arrow3.current.style.display = "block";
                 imgRef.current.style.backgroundImage = `url("https://www.kilkennyormonde.com/upload/slide_images/club-room-01.jpg")`;
                 arrow4.current.style.display = "none";
-              }}
-              onMouseOut={(e) => {
-                arrow3.current.style.display = "none";
+                arrow1.current.style.display = "none";
+                arrow2.current.style.display = "none";
+                arrow5.current.style.display = "none";
               }}
             >
               Family
@@ -95,9 +95,10 @@ function Rooms() {
               onMouseOver={(e) => {
                 arrow4.current.style.display = "block";
                 imgRef.current.style.backgroundImage = `url("https://s7d2.scene7.com/is/image/ritzcarlton/RCKUALA_00123?$XlargeViewport100pct$")`;
-              }}
-              onMouseOut={(e) => {
-                arrow4.current.style.display = "none";
+                arrow3.current.style.display = "none";
+                arrow2.current.style.display = "none";
+                arrow5.current.style.display = "none";
+                arrow1.current.style.display = "none";
               }}
             >
               Deluxe
@@ -113,9 +114,9 @@ function Rooms() {
                 arrow5.current.style.display = "block";
                 imgRef.current.style.backgroundImage = `url("https://www.bestofathens.gr/sites/default/files/fantastic_hotel_room.jpg")`;
                 arrow4.current.style.display = "none";
-              }}
-              onMouseOut={(e) => {
-                arrow5.current.style.display = "none";
+                arrow3.current.style.display = "none";
+                arrow2.current.style.display = "none";
+                arrow1.current.style.display = "none";
               }}
             >
               Premium Luxe
@@ -143,7 +144,7 @@ function Rooms() {
           textTransform: "uppercase",
           color: "#FFFFFF",
           fontFamily: "Inter",
-          fontSize: "0.73vw",
+          fontSize: "0.7em",
           lineHeight: "150%",
           cursor: "pointer",
         }}

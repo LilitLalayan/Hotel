@@ -1,7 +1,8 @@
 import React from "react";
 import "../App.css";
-
+import { useTranslation } from "react-i18next";
 function Screen() {
+  const { t, i18n } = useTranslation();
   return (
     <div
       style={{
@@ -19,8 +20,8 @@ function Screen() {
         justifyContent: "center",
       }}
     >
-      <h5 className="welcome">WELCOME TO</h5>
-      <h1 className="konyak">HOTEL KONYAK</h1>
+      <h5 className="welcome">{t("Greeting1")}</h5>
+      <h1 className="konyak">Hotel Konyak</h1>
     </div>
   );
 }

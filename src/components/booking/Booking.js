@@ -11,26 +11,13 @@ function Booking() {
   const [childCount, setChildCount] = useState(0);
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
-  const data = {
-    arrival: startDate,
-    departure: endDate,
-    adults: adultCount,
-    children: childCount,
-    promoCode: promCode,
-  };
 
   return (
     <form
       id="Booking"
       onSubmit={(e) => {
         e.preventDefault();
-        if (
-          startDate === null ||
-          endDate === null ||
-          adultCount === 0 ||
-          childCount === 0 ||
-          promCode === ""
-        ) {
+        if (startDate === null || endDate === null || adultCount === 0) {
           alert("PLEASE FILL IN THE FORM");
         } else {
           setStartDate(null);
@@ -38,7 +25,6 @@ function Booking() {
           setAdultCount(0);
           setChildCount(0);
           setPromCode("");
-          console.log(JSON.stringify(data));
           alert("YOU BOOKED A STAY!");
         }
       }}
@@ -46,6 +32,7 @@ function Booking() {
       <div className="arrival">
         <h6 className="h6-text">CHECK IN</h6>
         <DatePicker
+          className="date"
           selected={startDate}
           onChange={(date) => setStartDate(date)}
           isClearable
@@ -55,6 +42,7 @@ function Booking() {
       <div className="departure">
         <h6 className="h6-text">CHECK OUT</h6>
         <DatePicker
+          className="date"
           selected={endDate}
           onChange={(date) => setEndDate(date)}
           isClearable
@@ -80,7 +68,7 @@ function Booking() {
           onChange={(e) => setPromCode(e.target.value)}
         />
       </div>
-      <button className="btn">BOOK NOW</button>
+      <button className="bttn">BOOK NOW</button>
     </form>
   );
 }

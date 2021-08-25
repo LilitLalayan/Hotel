@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../App.css";
 
 function Adults({ adultCount, setAdultCount }) {
@@ -28,7 +28,7 @@ function Adults({ adultCount, setAdultCount }) {
           style={{
             color: "#201B13",
             cursor: "pointer",
-            fontSize: "0.83vw",
+            fontSize: "0.83em",
           }}
           onClick={decrement}
         >
@@ -36,7 +36,7 @@ function Adults({ adultCount, setAdultCount }) {
         </span>
         <span
           style={{
-            fontSize: "0.83vw",
+            fontSize: "0.83em",
             fontFamily: "Ogg",
             color: "#201B13",
           }}
@@ -45,7 +45,7 @@ function Adults({ adultCount, setAdultCount }) {
         </span>
         <span
           style={{
-            fontSize: "0.83vw",
+            fontSize: "0.83em",
             color: "#201B13",
             cursor: "pointer",
           }}

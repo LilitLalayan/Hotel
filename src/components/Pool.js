@@ -15,12 +15,12 @@ function Pool() {
           Outdoor swimming pool is what you need for full relaxation and a nice
           sunbathe. What if we add some exclusive cocktails? Gorgeous, isn't it?
         </p>
-        <buttun className="pool-button">
+        <button className="pool-button">
           MORE{" "}
           <ArrowForwardIosIcon
             style={{ fontSize: "1vw", marginLeft: "0.7vw" }}
           />
-        </buttun>
+        </button>
       </div>
       <div className="poolImg1" />
       <div className="poolImg2" />
@@ -43,7 +43,7 @@ function Pool() {
           textTransform: "uppercase",
           color: "#FFFFFF",
           fontFamily: "Inter",
-          fontSize: "0.73vw",
+          fontSize: "0.7em",
           lineHeight: "150%",
           cursor: "pointer",
         }}
